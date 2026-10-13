@@ -1,0 +1,180 @@
+/* MediaLab-only chapter rhythm: the visible screen below the measured header.
+   Minimums, not fixed heights, keep expanded archives and forms in normal flow. */
+:root{--ml-header-height:89px;--ml-screen-height:100vh}
+@supports(height:100svh){:root{--ml-screen-height:100svh}}
+@supports(height:100dvh){:root{--ml-screen-height:100dvh}}
+html:root{scroll-padding-top:var(--ml-header-height);scroll-padding-block-start:var(--ml-header-height);scroll-snap-type:none}
+main#top.soundlab-gallery-page{padding-top:0!important;scroll-margin-top:0;scroll-margin-block-start:0}
+.soundlab-gallery-page>section{
+ min-height:calc(var(--ml-screen-height) - var(--ml-header-height));
+ min-block-size:calc(var(--ml-screen-height) - var(--ml-header-height));
+ height:auto;max-height:none;overflow:visible;
+ display:flex;flex-direction:column;justify-content:center;
+ scroll-margin-top:0!important;scroll-margin-block-start:0!important;
+ scroll-snap-align:start;scroll-snap-stop:normal;
+}
+.soundlab-gallery-page>section>*{flex-shrink:0}
+.soundlab-gallery-page>section>.wrap,.soundlab-gallery-page>section>details{width:100%}
+.soundlab-gallery-page>section [id]{scroll-margin-top:16px!important;scroll-margin-block-start:16px!important}
+.soundlab-gallery-page :is(a,button,input,select,textarea,summary,[tabindex]){scroll-margin-block:16px}
+.soundlab-gallery-page>.sg-hero>.sg-hero-bottom{margin-block-start:auto}
+.soundlab-gallery-page>.sg-hero>.sg-hero-copy{margin-block:auto}
+header .nav{height:auto!important;min-height:88px;padding-block:12px!important}
+.ms-listening-selection{min-width:0;max-width:440px}
+.ms-track-label{display:block;font-size:12px;font-weight:500;line-height:1.4;margin-bottom:8px;color:#e2e8dc}
+#medialab-track{display:block;width:100%;max-width:100%;min-height:44px;padding:10px 34px 10px 12px;border:1px solid #93a593;border-radius:2px;background:#18392e;color:#fff;font:400 13px/1.5 var(--gn-font-sans);text-overflow:ellipsis}
+.ms-selected-recording{font-size:13px;line-height:1.5;margin:12px 0 9px;overflow-wrap:anywhere;text-transform:none;letter-spacing:0}
+.ms-track-title{display:block;font-weight:500}.ms-track-meta{display:block;color:#cbd6c6;font-size:12px;margin-top:3px}
+.ms-listening-selection audio{direction:ltr;width:100%;max-width:100%}
+.ms-audio-fallback{display:inline-block;margin-top:7px;font-size:12px;line-height:1.5;text-decoration:underline;text-underline-offset:3px}
+[dir=rtl] .sg-hero-art{inset:0 38% 0 0}
+[dir=rtl] .sg-hero:after{background:linear-gradient(270deg,#10221c 5%,#10221c 30%,#10221ce0 41%,#10221c00 71%)}
+[dir=rtl] .ms-brand-film-wrap{right:auto;left:5vw}
+@media(max-width:1179px){[dir=rtl] .ms-brand-film-wrap{left:auto;right:auto}}
+@media(max-width:1100px){header .navlinks{top:calc(100% + 1px)!important;max-height:calc(var(--ml-screen-height) - var(--ml-header-height) - 16px);overflow-y:auto;overscroll-behavior:contain}}
+@media(max-width:900px){.soundlab-gallery-page>section{display:block}}
+@media(max-width:760px){
+ [dir=rtl] .sg-hero-art{inset:0}
+ [dir=rtl] .sg-hero:after{background:linear-gradient(270deg,#10221ce8,#10221c50),linear-gradient(0deg,#10221c 0%,#10221c00 65%)}
+}
+/* Proximity is a light desktop aid. No wheel/touch capture or mandatory snap. */
+@media(min-width:901px) and (min-height:650px) and (hover:hover) and (pointer:fine) and (prefers-reduced-motion:no-preference){
+ html:root{scroll-snap-type:y proximity}
+ html:has(.soundlab-gallery-page :focus-visible){scroll-snap-type:none}
+ .soundlab-gallery-page>section:has(details[open]),.soundlab-gallery-page>section:has(#album-player-panel:not([hidden])){scroll-snap-align:none}
+}
+@media(prefers-reduced-motion:reduce){html:root{scroll-snap-type:none!important;scroll-behavior:auto!important}}
+@media print{.soundlab-gallery-page>section{display:block;min-height:0;min-block-size:0;scroll-snap-align:none}header{position:static!important}.ms-listening-selection audio{display:none}}
+
+/* One bounded composition: grid columns mirror with document direction.
+   Neither text nor film uses physical/absolute desktop placement. */
+.soundlab-gallery-page>.sg-hero{padding:clamp(36px,5vh,72px) 0;display:flex;justify-content:center}
+.soundlab-gallery-page>.sg-hero>.ms-hero-grid{position:relative;z-index:2;display:grid;direction:ltr;grid-template-areas:"copy film";grid-template-columns:minmax(0,.88fr) minmax(0,1.12fr);align-items:center;gap:clamp(32px,4vw,72px);width:calc(100% - 96px);max-width:1320px;padding:0;margin-inline:auto}
+.sg-hero .sg-hero-copy{grid-area:copy;padding:0;margin:0;min-width:0;width:100%;max-width:480px}
+.sg-hero h1{font-family:var(--gn-font-sans)!important;font-size:clamp(80px,8vw,132px);line-height:.83;letter-spacing:-.065em;width:auto;max-width:100%;margin:0}
+.sg-hero h1>span+span{margin-top:10px}.sg-hero .ms-descriptor{font-size:16px;line-height:1.6;letter-spacing:0;margin:28px 0 0;max-width:360px}
+.sg-hero .sg-actions{margin-top:26px;gap:0;max-width:100%}.sg-hero .sg-primary{font-size:14px;min-height:46px;padding:13px 20px;min-width:0;background:#f27e51;color:#14251d}
+.sg-hero .sg-hero-art{inset:0;z-index:0;opacity:.38}.sg-hero .sg-hero-art img{object-position:50% 50%}
+.sg-hero:after,html[dir=rtl] .sg-hero:after{z-index:1;background:linear-gradient(90deg,#10221cf5 0%,#10221ce8 30%,#10221c55 68%,#10221ca8 100%)}
+html[dir=rtl] .sg-hero:after{background:linear-gradient(270deg,#10221cf5 0%,#10221ce8 30%,#10221c55 68%,#10221ca8 100%)}
+html[dir=rtl] .sg-hero h1{text-align:right}
+html[dir=rtl] .soundlab-gallery-page>.sg-hero>.ms-hero-grid{grid-template-areas:"film copy";grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr)}
+html[dir=rtl] .ms-hero-grid>*{direction:rtl}
+.sg-hero .ms-brand-film-wrap,html[dir=rtl] .sg-hero .ms-brand-film-wrap{grid-area:film;position:static;inset:auto;transform:none;width:100%;max-width:none;margin:0;min-width:0;align-self:center}
+.sg-hero .branch-hero-film{width:100%;max-width:100%}.sg-hero .branch-film-screen{overflow:hidden;box-shadow:0 16px 54px #0003}
+.sg-hero .branch-film-controls{position:absolute;inset-inline-end:10px;bottom:10px;display:flex;gap:2px;padding:2px;background:#10221cdb;border-radius:24px;color:#fff}
+.sg-hero .ms-icon-button{display:inline-flex!important;align-items:center;justify-content:center;flex:0 0 44px;width:44px!important;min-width:44px;max-width:44px;min-height:44px;height:44px;padding:0!important;border:0!important;border-radius:50%;background:transparent!important;color:inherit;font-size:0;cursor:pointer}
+.sg-hero .ms-icon-button:hover{background:#ffffff18!important}.sg-hero .ms-icon-button[hidden]{display:none!important}
+.sg-hero .ms-icon-button svg,#medialab-track svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.sg-hero [hidden]{display:none!important}.sg-hero .ms-listening-selection{max-width:430px;margin-top:32px}
+.ms-music-row{display:flex;align-items:center;gap:6px;min-width:0}.ms-track-picker{position:relative;flex:1;min-width:0}
+#medialab-track{display:flex;align-items:center;gap:12px;width:100%;min-width:0;min-height:50px;border:1px solid #91a68a;border-radius:2px;padding:12px 14px;background:#15362def;color:#f7f5ec;font:400 14px/1.5 var(--gn-font-sans);text-align:start;cursor:pointer}
+#medialab-track .ms-current-track{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}#medialab-track svg:last-child{width:15px;height:15px;margin-inline-start:auto;transition:transform .2s}#medialab-track[aria-expanded=true] svg:last-child{transform:rotate(180deg)}
+#medialab-track-list{position:absolute;inset-inline:0;top:calc(100% + 7px);z-index:30;background:#f7f5ed;color:#122c22;border:1px solid #c6d0bf;box-shadow:0 16px 44px #0005;padding:6px;max-height:min(340px,45vh);overflow-y:auto;overscroll-behavior:contain;border-radius:3px}
+#medialab-track-list [role=option]{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;padding:12px 10px;min-height:48px;border:0;border-radius:2px;background:transparent;color:inherit;text-align:start;font:400 14px/1.45 var(--gn-font-sans);cursor:pointer}
+#medialab-track-list [role=option] bdi{min-width:0;overflow-wrap:anywhere}#medialab-track-list time{font-size:12px;color:#4a6153;white-space:nowrap}
+#medialab-track-list [aria-selected=true]{background:#e0e8d9}#medialab-track-list [role=option]:hover,#medialab-track-list [role=option]:focus-visible{background:#d1dec7;outline:2px solid #527641;outline-offset:-2px}
+.sg-hero .ms-selected-recording.sr-only{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;padding:0!important;margin:-1px!important}
+.sg-hero .media-error,.sg-hero .ms-audio-fallback{font-size:13px;line-height:1.5;margin-top:12px}.sg-hero .branch-film-status:not(.sr-only){display:block;font-size:13px;margin-top:10px}
+@media(max-width:900px){
+ .soundlab-gallery-page>.sg-hero>.ms-hero-grid,html[dir=rtl] .soundlab-gallery-page>.sg-hero>.ms-hero-grid{grid-template-areas:"copy" "film";grid-template-columns:1fr;max-width:620px;width:calc(100% - 48px);gap:38px}
+ .sg-hero .sg-hero-copy{max-width:none}.sg-hero h1{font-size:clamp(78px,14vw,112px)}
+ .sg-hero .ms-descriptor{margin-top:24px;max-width:410px}.sg-hero .ms-listening-selection{margin-top:26px;max-width:460px}
+ .sg-hero .ms-brand-film-wrap{max-width:100%}.sg-hero .sg-hero-art{opacity:.28}
+}
+@media(max-width:480px){
+ .soundlab-gallery-page>.sg-hero{padding-block:34px}.soundlab-gallery-page>.sg-hero>.ms-hero-grid{width:calc(100% - 40px);gap:30px;padding:0!important}
+ .sg-hero h1{font-size:clamp(70px,20vw,92px)}.sg-hero .ms-descriptor{font-size:15px;max-width:300px}.sg-hero .sg-actions{margin-top:22px}
+ #medialab-track{font-size:14px;gap:9px;padding-inline:11px}.sg-hero .branch-film-controls{inset-inline-end:6px;bottom:6px}
+}
+@media(prefers-reduced-motion:reduce){#medialab-track svg{transition:none}}
+
+/* Return to the original vivid vermilion artwork, not a tinted replacement.
+   Text retains the original dark reading edge; the compact mirrored grid stays. */
+.sg-hero .sg-hero-art{opacity:1;inset:0 0 0 28%}
+html[dir=rtl] .sg-hero .sg-hero-art{inset:0 28% 0 0}
+.sg-hero:after{background:linear-gradient(90deg,#10221c 0%,#10221c 27%,#10221ce0 39%,#10221c00 70%)}
+html[dir=rtl] .sg-hero:after{background:linear-gradient(270deg,#10221c 0%,#10221c 27%,#10221ce0 39%,#10221c00 70%)}
+.sg-hero .sg-primary{background:#f27e51!important;color:#14251d!important;border-color:#f27e51!important}
+/* Half the former cover width and height = one quarter of its display area. */
+.soundlab-gallery-page .album-card>img{width:50%;height:auto;aspect-ratio:1;object-fit:cover;margin:26px auto 0}
+.soundlab-gallery-page .album-copy{padding-top:22px}
+/* Existing recording cards remain intact and immediately visible. */
+.soundlab-gallery-page #listen:has(.secondary-work),.soundlab-gallery-page #studies:has(.secondary-work){padding-block:68px!important}
+.soundlab-gallery-page .secondary-work>summary{font-size:15px;line-height:1.5}
+@media(max-width:900px){
+ .sg-hero .sg-hero-art,html[dir=rtl] .sg-hero .sg-hero-art{inset:0;opacity:1}
+ .sg-hero:after{background:linear-gradient(90deg,#10221cf5 0%,#10221cc9 36%,#10221c30 100%)}
+ html[dir=rtl] .sg-hero:after{background:linear-gradient(270deg,#10221cf5 0%,#10221cc9 36%,#10221c30 100%)}
+}
+@media(max-width:600px){.soundlab-gallery-page #listen:has(.secondary-work),.soundlab-gallery-page #studies:has(.secondary-work){padding-block:44px!important}}
+/* Six supplied landscape films; no fabricated playback or cropped frames. */
+.ms-motion-grid{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.9fr) minmax(0,1.02fr);gap:38px 28px;align-items:start}
+.ms-motion-study{min-width:0}.ms-motion-study:nth-child(3n + 2){margin-top:66px}.ms-motion-study:nth-child(3n){margin-top:26px}
+.ms-motion-film{margin:0;min-width:0}.ms-motion-screen{position:relative;aspect-ratio:16/9;background:#10221c;overflow:hidden}
+.ms-motion-screen video{display:block;width:100%;height:100%;object-fit:contain;aspect-ratio:16/9}
+.ms-motion-controls{position:absolute;inset-inline-end:8px;bottom:8px;display:flex;gap:1px;padding:2px;border-radius:24px;background:#10221cdd;color:#fff}
+.ms-motion-controls button{display:inline-flex;align-items:center;justify-content:center;width:44px;min-width:44px;height:44px;min-height:44px;padding:0;border:0;border-radius:50%;background:transparent;color:inherit;cursor:pointer}
+.ms-motion-controls button:hover{background:#ffffff20}.ms-motion-controls button:focus-visible{outline:2px solid #fff;outline-offset:-3px}
+.ms-motion-controls svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.ms-motion-film figcaption{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 18px;padding-top:15px;border-bottom:1px solid #c8cdbd;padding-bottom:16px}
+.ms-motion-film figcaption h3{font:400 clamp(20px,2vw,27px)/1.2 var(--gn-font-serif);margin:0;letter-spacing:-.015em}
+.ms-motion-film figcaption>span{font-size:12px;line-height:1.5;color:#55674e}.ms-motion-error{font-size:13px;line-height:1.5;color:#713619;margin-top:10px}.ms-motion-error[hidden]{display:none}
+@media(max-width:1000px){.ms-motion-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:36px 24px}.ms-motion-study:nth-child(n){margin-top:0}.ms-motion-study:nth-child(even){margin-top:46px}}
+@media(max-width:600px){.ms-motion-grid{grid-template-columns:minmax(0,1fr);gap:32px}.ms-motion-study:nth-child(n){width:93%;margin-top:0;justify-self:start}.ms-motion-study:nth-child(even){width:88%;justify-self:end}.ms-motion-film figcaption{gap:7px}.ms-motion-film figcaption h3{font-size:23px}}
+@media(prefers-reduced-motion:reduce){.ms-motion-grid *{scroll-behavior:auto}}
+/* Explicit areas avoid direction-dependent track placement; captions follow locale. */
+.soundlab-gallery-page #studies .wrap{width:calc(100% - 96px);max-width:1320px;padding-inline:0!important;margin-inline:auto}
+.ms-motion-grid{direction:ltr;grid-template-areas:"one two three" "four five six"}
+.ms-motion-study:nth-child(1){grid-area:one}.ms-motion-study:nth-child(2){grid-area:two}.ms-motion-study:nth-child(3){grid-area:three}.ms-motion-study:nth-child(4){grid-area:four}.ms-motion-study:nth-child(5){grid-area:five}.ms-motion-study:nth-child(6){grid-area:six}
+html[dir=rtl] .ms-motion-grid{grid-template-areas:"three two one" "six five four";grid-template-columns:minmax(0,1.02fr) minmax(0,.9fr) minmax(0,1.08fr)}
+html[dir=rtl] .ms-motion-study{direction:rtl}
+@media(max-width:1000px){.ms-motion-grid{grid-template-areas:"one two" "three four" "five six"}html[dir=rtl] .ms-motion-grid{grid-template-areas:"two one" "four three" "six five";grid-template-columns:minmax(0,1fr) minmax(0,1fr)}}
+@media(max-width:600px){
+ .soundlab-gallery-page #studies .wrap{width:calc(100% - 40px)}
+ .ms-motion-grid,html[dir=rtl] .ms-motion-grid{grid-template-areas:"one" "two" "three" "four" "five" "six";grid-template-columns:minmax(0,1fr)}
+ html[dir=rtl] .ms-motion-study:nth-child(odd){justify-self:end}html[dir=rtl] .ms-motion-study:nth-child(even){justify-self:start}
+}
+/* Keep the centered section frame direction-neutral; localize its contents. */
+#studies>details,#studies>details>.wrap{direction:ltr}
+html[dir=rtl] #studies .sg-gallery-head{direction:rtl}
+html[dir=rtl] #studies [data-motion-heading]{text-align:right;unicode-bidi:plaintext}
+
+/* Keep concept-product context secondary to the finished films. */
+#studies .sg-gallery-intro{font-size:16px}
+#studies .ms-concept-note{max-width:490px;margin:12px 0 0;font-size:14px;line-height:1.5;color:#526368}
+
+/* R6: keep the complete formats composition within a desktop chapter without
+   changing type scales. The old vertical tabs forced a narrow, tall panel. */
+.soundlab-gallery-page #formats>.wrap{width:calc(100% - 96px);max-width:1320px;margin-inline:auto;padding-inline:0!important}
+@media(min-width:901px){
+ .soundlab-gallery-page #formats{padding-block:16px}
+ #formats>.wrap>.eyebrow{margin:0 0 8px}
+ #formats .sl-section-head{grid-template-columns:1fr 1.1fr;gap:28px;margin-bottom:12px}
+ #formats .sl-section-head h2,#formats .sl-section-head .lead{margin:0}
+ #formats .sl-format-grid{grid-template-columns:1fr;gap:10px}
+ #formats .sl-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+ #formats .sl-tabs button{min-height:48px;padding:8px 0;gap:10px;border-bottom:1px solid var(--stone);align-items:center}
+ #formats .sl-tabs button[aria-selected=true]{border-bottom-color:var(--green)}
+ #formats .sl-panel{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);column-gap:28px;row-gap:6px;padding:14px 20px;min-height:0;align-items:start}
+ #formats .sl-panel-index{grid-column:1/-1;margin:0}
+ #formats .sl-panel h3{grid-column:1/-1;margin:0 0 4px}
+ #formats #format-description{grid-column:1;grid-row:3/6;max-width:none;margin:0}
+ #formats .sl-panel h4{grid-column:2;grid-row:3;margin:0}
+ #formats #format-outputs{grid-column:2;grid-row:4;margin:0}
+ #formats .sl-panel li{padding-block:5px}
+ #formats #format-enquiry{grid-column:2;grid-row:5;justify-self:start;margin:0}
+ #formats .ms-boundary{grid-template-columns:minmax(0,.8fr) minmax(0,2.2fr);gap:24px;margin-top:12px;padding:12px 18px}
+}
+@media(max-width:900px){.soundlab-gallery-page #formats>.wrap{width:calc(100% - 48px)}}
+@media(max-width:480px){.soundlab-gallery-page #formats>.wrap{width:calc(100% - 40px)}}
+/* Preserve readable natural flow at short heights and enlarged text. */
+@media print{#formats .sl-panel{display:block}#formats .sl-tabs{display:flex}}
+
+/* R7: the intact production agreement notice has its own adjacent arrow chapter.
+   Long translations stay readable without competing with the format panel. */
+.soundlab-gallery-page #format-terms{background:#e7ebdf;padding-block:32px}
+.soundlab-gallery-page #format-terms>.wrap{width:calc(100% - 96px);max-width:1320px;margin-inline:auto;padding-inline:0!important}
+#format-terms .ms-boundary{margin:0}
+@media(max-width:900px){.soundlab-gallery-page #format-terms>.wrap{width:calc(100% - 48px)}}
+@media(max-width:480px){.soundlab-gallery-page #format-terms>.wrap{width:calc(100% - 40px)}}
