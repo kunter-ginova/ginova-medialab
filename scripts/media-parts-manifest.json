@@ -1,0 +1,325 @@
+{
+  "max_direct_bytes": 3200000,
+  "max_part_bytes": 2400000,
+  "assets": [
+    {
+      "path": "assets/audio/campi-flegrei-epic-orchestral-anthem.mp3",
+      "bytes": 8097521,
+      "sha256": "6f7ad5d70c2e8c9f2ed40e655030095261c80164e8a3e61e96441cb196156a76",
+      "git_blob_sha": "f1d094a20c2d033f0db85cbee81d290d3bfd74e1",
+      "parts": [
+        {
+          "path": "media-parts/m001-001.part",
+          "bytes": 2400000,
+          "sha256": "ba059a685161028765f02c6aecff123eb45f0ff4807c5ac326c92fc2ee023a85"
+        },
+        {
+          "path": "media-parts/m001-002.part",
+          "bytes": 2400000,
+          "sha256": "47722a48f679475309ae960b50a82af8cfa91b4ae42f49ab994ca28786f7dbd6"
+        },
+        {
+          "path": "media-parts/m001-003.part",
+          "bytes": 2400000,
+          "sha256": "7dbd4c37ac2620eb37e607ae3ded286b6ac4067237285c36d070474d134a7fd6"
+        },
+        {
+          "path": "media-parts/m001-004.part",
+          "bytes": 897521,
+          "sha256": "63e9487bdacaebd37990219cc01ccfed93dcff9f0311765beef6abb62380ae12"
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/campi-flegrei.mp3",
+      "bytes": 5243862,
+      "sha256": "15ef734f298ab30d68a796bc71aa9b7af1df9ff2a41057ab9c6a786c06f621b1",
+      "git_blob_sha": "714f2f9307d83358362723c9d88c4354d200cb15",
+      "parts": [
+        {
+          "path": "media-parts/m002-001.part",
+          "bytes": 2400000,
+          "sha256": "24f2cde9da4d6d39f21c2ea71a0f14e49bcf00e4f9566ba23648b560fd0595c8"
+        },
+        {
+          "path": "media-parts/m002-002.part",
+          "bytes": 2400000,
+          "sha256": "840813edee885918d1aa6c817754236eda0f24b87e1de9cd4e8958687cabff04"
+        },
+        {
+          "path": "media-parts/m002-003.part",
+          "bytes": 443862,
+          "sha256": "a905d8053de20294b161b376ec45cee3bc747d550cb045005f26451d99e4ec53"
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/end-of-the-century-2026-edit-remastered.mp3",
+      "bytes": 5143160,
+      "sha256": "501d5d0d80ce32f4246fe3face96c77428abf6b3226dd4e591a7dbd1a2edbbf4",
+      "git_blob_sha": "99ea9dfdadfd678621b0ba9ede6a2ae014e2e445",
+      "parts": [
+        {
+          "path": "media-parts/m003-001.part",
+          "bytes": 2400000,
+          "sha256": "3dd5ad9c31ff76f2358fd5d207d05a5d4af0314bb2c02d437a4d350e82baa3b0"
+        },
+        {
+          "path": "media-parts/m003-002.part",
+          "bytes": 2400000,
+          "sha256": "3e9f2d2c79a73263d8030eed3015c2b01b29625fbeaab70e272148dc21982a7a"
+        },
+        {
+          "path": "media-parts/m003-003.part",
+          "bytes": 343160,
+          "sha256": "33a216a38ee689c599861a89da84428d70e21143154858d0df789161568a08c1"
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/epic-disco-sax-sunset.mp3",
+      "bytes": 5366898,
+      "sha256": "f3600b2dad1b2ab8a9e327e67a2093de31d34983565600a456adccc31150dc48",
+      "git_blob_sha": "56968ff4f457a2b59c3b469c78b30c2c93abf1aa",
+      "parts": [
+        {
+          "path": "media-parts/m004-001.part",
+          "bytes": 2400000,
+          "sha256": "0719c9e92c71d8f7e7d2e248b3e89fa7113f41cbf568774d5501c347793403c8"
+        },
+        {
+          "path": "media-parts/m004-002.part",
+          "bytes": 2400000,
+          "sha256": "610a4071b5d5c543eed9765c6edfb3c2f8c18f637f9409e51213e1fc6aa17d1a"
+        },
+        {
+          "path": "media-parts/m004-003.part",
+          "bytes": 566898,
+          "sha256": "5b5bc3ab7d7d6c941830c5edd40d59195bc2b4b335be3657ff6972292dbb38c0"
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/gaza.mp3",
+      "bytes": 5643320,
+      "sha256": "c48c4279e1dc5d3e37e47b5f46da9df98c0b85d5bf6f35a4547c718d90ecd074",
+      "git_blob_sha": "4ec2af16454cfcc49ef034745d11a586b75e0f42",
+      "parts": [
+        {
+          "path": "media-parts/m005-001.part",
+          "bytes": 2400000,
+          "sha256": "b2fdcdc2b8948500344caaef1aa4680538946645b3267860d2590ed29f60cd50"
+        },
+        {
+          "path": "media-parts/m005-002.part",
+          "bytes": 2400000,
+          "sha256": "ceaae9659fbcdc203927e7b24c9d99765f767f7361bc7ab1a1be3253d57b25d0"
+        },
+        {
+          "path": "media-parts/m005-003.part",
+          "bytes": 843320,
+          "sha256": "333b14493fad1d31917bf32f669d14909d388e8d59c9c3daa347b904e76f3633"
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/moscoff.mp3",
+      "bytes": 5689205,
+      "sha256": "76e2b06b609eda287547eabc886ef393ff2fcdf0d51bcccbd34cf700253829d3",
+      "git_blob_sha": "7cad3bccc467e8e59cdb8347c9a53dc70bed9036",
+      "parts": [
+        {
+          "path": "media-parts/m006-001.part",
+          "bytes": 2400000,
+          "sha256": "b5ee24aa440bd7ad25faff617e1f14aa97eeec26dac0ab632afd95b7585a70a2"
+        },
+        {
+          "path": "media-parts/m006-002.part",
+          "bytes": 2400000,
+          "sha256": "f91b4388e355427ecd491a85ad552eb75141a1d7e343b66184c87baf0905c07a"
+        },
+        {
+          "path": "media-parts/m006-003.part",
+          "bytes": 889205,
+          "sha256": "e205c8d42bb27f010c92d53a52f5e751255d7b5cb5f76c9d00d7b0d4cb1b07fd"
+        }
+      ]
+    },
+    {
+      "path": "assets/audio/what-remains.mp3",
+      "bytes": 8096620,
+      "sha256": "f09d49768bf0a231ba4ff9f72514847455f56623ef4d0813f0235f8f76d94514",
+      "git_blob_sha": "ee1a48ad4fca781990898efd1080f901dd432dd4",
+      "parts": [
+        {
+          "path": "media-parts/m007-001.part",
+          "bytes": 2400000,
+          "sha256": "3d441bbde2881a4ff00fa961c8be37c1196d0a1d74ae65d310f1ed007d937a1a"
+        },
+        {
+          "path": "media-parts/m007-002.part",
+          "bytes": 2400000,
+          "sha256": "73c9f13300c68d5cc7dd2b5e53d55ba542364a04138f767eec11ae61067c4965"
+        },
+        {
+          "path": "media-parts/m007-003.part",
+          "bytes": 2400000,
+          "sha256": "57ad5f9896967823bc99472cf1926b13909a9783ee17cc93d3c8ab145e6e8a02"
+        },
+        {
+          "path": "media-parts/m007-004.part",
+          "bytes": 896620,
+          "sha256": "6f26329ebc35b152cd16ee4798fd2fe645ca63d5f8b6b61189d280a78e6aa6dd"
+        }
+      ]
+    },
+    {
+      "path": "assets/medialab-motion/chess-focus.mp4",
+      "bytes": 3837124,
+      "sha256": "3c1ad6420c35691dae2b655f359f62174b853425fe5dc0f63020e343d1e7fae1",
+      "git_blob_sha": "875ea070028e6fc02fc39d8ca4140b14a63ffb22",
+      "parts": [
+        {
+          "path": "media-parts/m008-001.part",
+          "bytes": 2400000,
+          "sha256": "73ea433142b56df23753ae90465b5b6bc970339d2c54b4d2d32ba22a4025729b"
+        },
+        {
+          "path": "media-parts/m008-002.part",
+          "bytes": 1437124,
+          "sha256": "5818243051bd73a622a493d4f832f8e32f4aa701cb7e068a035e33f0721c690b"
+        }
+      ]
+    },
+    {
+      "path": "assets/medialab-motion/football-character.mp4",
+      "bytes": 4558146,
+      "sha256": "309da5652a1fcf12d75241d9de3deda6c7273e0b5d9935b0bfd4548381036535",
+      "git_blob_sha": "d0b3a4f11459d89c62b60b56beb35ba785ea47f5",
+      "parts": [
+        {
+          "path": "media-parts/m009-001.part",
+          "bytes": 2400000,
+          "sha256": "6c0e0e98d2caa63ca0f3ed3d9d8088cfe7127586892c89a529473df83c991690"
+        },
+        {
+          "path": "media-parts/m009-002.part",
+          "bytes": 2158146,
+          "sha256": "1962bcdba97976457247c90974617a1111d4b0c3ad24a07f225d332dadf61b8e"
+        }
+      ]
+    },
+    {
+      "path": "assets/medialab-motion/rail-identity.mp4",
+      "bytes": 3229071,
+      "sha256": "436964de2fcf7a243ac3189c24da55d571e872a0a33ce14d6dfcc61ab8a9bf4b",
+      "git_blob_sha": "13ccecda40b190f9d4960d4a95f885910e41ebe2",
+      "parts": [
+        {
+          "path": "media-parts/m010-001.part",
+          "bytes": 2400000,
+          "sha256": "7a3250b458f1e5fcc3deedceb0684d4c3a6fd6cbbbe2b37332d1cafccd5c6cef"
+        },
+        {
+          "path": "media-parts/m010-002.part",
+          "bytes": 829071,
+          "sha256": "13d17ecc9469bfd2466bd6cb4026b0bb70f75f9666bb22c72a3b021356368616"
+        }
+      ]
+    },
+    {
+      "path": "assets/medialab-motion/tactical-montage-web.mp4",
+      "bytes": 4113323,
+      "sha256": "459b1ecc51287afde858814ba2cc8590d1f942875158f85baff82e8ea9be8678",
+      "git_blob_sha": "b0119aaba704b4097f8d66abb86f9f4a8d9d3b3c",
+      "parts": [
+        {
+          "path": "media-parts/m011-001.part",
+          "bytes": 2400000,
+          "sha256": "5f63e411d3c9a724a627d5b6774f1b23f1276f3b0b173506f8227f1e29be1853"
+        },
+        {
+          "path": "media-parts/m011-002.part",
+          "bytes": 1713323,
+          "sha256": "5ffbc25d6125c73083f60604c4329555ab778d115899c6b8b00ce4a4ceda2729"
+        }
+      ]
+    },
+    {
+      "path": "assets/medialab-motion/village-journey.mp4",
+      "bytes": 4504647,
+      "sha256": "311079c73615b189e7d5ddcc20ec6a9c3d9c54e2263298cdc78ad2444dc9513a",
+      "git_blob_sha": "c7b7afa0911d6fbd6d24d26800091ba723643b03",
+      "parts": [
+        {
+          "path": "media-parts/m012-001.part",
+          "bytes": 2400000,
+          "sha256": "88b0cd6bed9be734dbbc2cc2bef5ada1c7f342bc128613338dbc01bd359c2125"
+        },
+        {
+          "path": "media-parts/m012-002.part",
+          "bytes": 2104647,
+          "sha256": "3c4a33b069e051c027310309e768577aca437a345fbb1398343875e97c3dbb44"
+        }
+      ]
+    },
+    {
+      "path": "assets/media-trademark-20261012/napoli.webp",
+      "bytes": 302176,
+      "sha256": "ad99fcb7384b630febcb6f245e7e3251fd64c006edfae9eb5a62431f881173a2",
+      "git_blob_sha": "110ce51d85bb6e1cf2a21fbf598e9090bde196bb",
+      "parts": [
+        {
+          "path": "media-parts/m013-001.part",
+          "bytes": 302176,
+          "sha256": "ad99fcb7384b630febcb6f245e7e3251fd64c006edfae9eb5a62431f881173a2"
+        }
+      ]
+    },
+    {
+      "path": "assets/media-trademark-20261012/share.png",
+      "bytes": 213643,
+      "sha256": "1e0fbb20ad8f704dcbfc9a6bed8901d3858a2d39ddec96917803b47c4ec03dfa",
+      "git_blob_sha": "5e91e7c94780534c061dddf93a7c8c295714288e",
+      "parts": [
+        {
+          "path": "media-parts/m014-001.part",
+          "bytes": 213643,
+          "sha256": "1e0fbb20ad8f704dcbfc9a6bed8901d3858a2d39ddec96917803b47c4ec03dfa"
+        }
+      ]
+    },
+    {
+      "path": "assets/soundlab-studies/study-1.webp",
+      "bytes": 290434,
+      "sha256": "522a656a4fe9ef076cbb61d578a31ed839ee954d6f9e214b96222ddb313e52e7",
+      "git_blob_sha": "dcff508539368310fbe264aae42186af9e27415f",
+      "parts": [
+        {
+          "path": "media-parts/m015-001.part",
+          "bytes": 290434,
+          "sha256": "522a656a4fe9ef076cbb61d578a31ed839ee954d6f9e214b96222ddb313e52e7"
+        }
+      ]
+    },
+    {
+      "path": "assets/soundlab-studies/study-2.webp",
+      "bytes": 239016,
+      "sha256": "9ea4a57968a6eae0fd6af99c745c9319c87f5085cbb630e1dbeb3ae6f84b27a0",
+      "git_blob_sha": "7ec74e3c7749a8f5cbc44875ef67dff32c122ff5",
+      "parts": [
+        {
+          "path": "media-parts/m016-001.part",
+          "bytes": 239016,
+          "sha256": "9ea4a57968a6eae0fd6af99c745c9319c87f5085cbb630e1dbeb3ae6f84b27a0"
+        }
+      ]
+    }
+  ],
+  "additional_packed_paths": [
+    "assets/media-trademark-20261012/napoli.webp",
+    "assets/media-trademark-20261012/share.png",
+    "assets/soundlab-studies/study-1.webp",
+    "assets/soundlab-studies/study-2.webp"
+  ]
+}

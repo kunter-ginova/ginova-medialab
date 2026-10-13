@@ -1,0 +1,560 @@
+[
+  {
+    "path": ".nojekyll",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  },
+  {
+    "path": "CNAME",
+    "bytes": 20,
+    "sha256": "d6d3ffeefd225b3e5f9290009dd72d0a8d27e22d14f3f88b8a6f0bc81b19452e",
+    "git_blob_sha": "e2e877af5567be0883f438f2958e1829f3f6dfc8"
+  },
+  {
+    "path": "README.md",
+    "bytes": 150,
+    "sha256": "065f9914f13ea72d41d02a0957f78e79bc00a21a3d8112c75d6b6d03b2e0284e",
+    "git_blob_sha": "9cff0edfff61ab104507d380ba4e4f4bf822a66f"
+  },
+  {
+    "path": "assets/atelier.css",
+    "bytes": 19338,
+    "sha256": "ea81450926803980b84d9880f18dee16ea52e7ecf79e3d5b9bc42139f0da2098",
+    "git_blob_sha": "5a4f1492c05bb0585c864564e657513f385c5e1d"
+  },
+  {
+    "path": "assets/audio/campi-flegrei-epic-orchestral-anthem.mp3",
+    "bytes": 8097521,
+    "sha256": "6f7ad5d70c2e8c9f2ed40e655030095261c80164e8a3e61e96441cb196156a76",
+    "git_blob_sha": "f1d094a20c2d033f0db85cbee81d290d3bfd74e1"
+  },
+  {
+    "path": "assets/audio/campi-flegrei.mp3",
+    "bytes": 5243862,
+    "sha256": "15ef734f298ab30d68a796bc71aa9b7af1df9ff2a41057ab9c6a786c06f621b1",
+    "git_blob_sha": "714f2f9307d83358362723c9d88c4354d200cb15"
+  },
+  {
+    "path": "assets/audio/end-of-the-century-2026-edit-remastered.mp3",
+    "bytes": 5143160,
+    "sha256": "501d5d0d80ce32f4246fe3face96c77428abf6b3226dd4e591a7dbd1a2edbbf4",
+    "git_blob_sha": "99ea9dfdadfd678621b0ba9ede6a2ae014e2e445"
+  },
+  {
+    "path": "assets/audio/epic-disco-sax-sunset.mp3",
+    "bytes": 5366898,
+    "sha256": "f3600b2dad1b2ab8a9e327e67a2093de31d34983565600a456adccc31150dc48",
+    "git_blob_sha": "56968ff4f457a2b59c3b469c78b30c2c93abf1aa"
+  },
+  {
+    "path": "assets/audio/gaza.mp3",
+    "bytes": 5643320,
+    "sha256": "c48c4279e1dc5d3e37e47b5f46da9df98c0b85d5bf6f35a4547c718d90ecd074",
+    "git_blob_sha": "4ec2af16454cfcc49ef034745d11a586b75e0f42"
+  },
+  {
+    "path": "assets/audio/moscoff.mp3",
+    "bytes": 5689205,
+    "sha256": "76e2b06b609eda287547eabc886ef393ff2fcdf0d51bcccbd34cf700253829d3",
+    "git_blob_sha": "7cad3bccc467e8e59cdb8347c9a53dc70bed9036"
+  },
+  {
+    "path": "assets/audio/what-remains.mp3",
+    "bytes": 8096620,
+    "sha256": "f09d49768bf0a231ba4ff9f72514847455f56623ef4d0813f0235f8f76d94514",
+    "git_blob_sha": "ee1a48ad4fca781990898efd1080f901dd432dd4"
+  },
+  {
+    "path": "assets/branch-header-geometry.css",
+    "bytes": 2710,
+    "sha256": "18f4f7cfdff07fca4cebcb94d3da8f5faab537cba2b952791fa6f62b65193e5b",
+    "git_blob_sha": "49f12f3ff175cffae80ffd6bf05229b71b2ee4dd"
+  },
+  {
+    "path": "assets/branch-hero-film.css",
+    "bytes": 2211,
+    "sha256": "94a0c5c241e5d09c8d2bde58c167fc1d00159e782029e36b9ad978a9963a77e7",
+    "git_blob_sha": "4da573637139c90f9b9b30c6bb873ed6589af057"
+  },
+  {
+    "path": "assets/brand-20261012/crest.png",
+    "bytes": 113951,
+    "sha256": "d2b2637984fde99d75ee09e6a0539cb9792a05533c99c71ba29660b594b86679",
+    "git_blob_sha": "0df2d583b7ecef3451312f1921c14cb048d5729d"
+  },
+  {
+    "path": "assets/brand-20261012/favicon.svg",
+    "bytes": 222,
+    "sha256": "4fd52a33f3b2ada87bb4a319dac8027c979f83da29979b253b59ee56b9140270",
+    "git_blob_sha": "de63f3f89687431eaefa867654ecf7a7e7d8c56e"
+  },
+  {
+    "path": "assets/brand-20261012/identity.css",
+    "bytes": 3267,
+    "sha256": "79ad0526f50de1d9c67dec0a6a43a82915c79c2ecf96378802105bad11d7dae6",
+    "git_blob_sha": "0a67fd98cbf11facaeaea820eeb5bec62a07a7ab"
+  },
+  {
+    "path": "assets/brand-20261012/identity.js",
+    "bytes": 1273,
+    "sha256": "85d038b933ddbfe0b8753358278493d42f34a173d5b64dd5c615f56d81931c47",
+    "git_blob_sha": "9cf6a9dea641de214f621c7fc007d0d5ba0a966c"
+  },
+  {
+    "path": "assets/brand-20261012/primary.png",
+    "bytes": 167037,
+    "sha256": "98b5b6dbd5b6806986595e95b3ab0d0bcc9316377836d5ccaf153107b445b49c",
+    "git_blob_sha": "bc3fdbf0ebbad55a6865fcf31ebd2e65cb73d410"
+  },
+  {
+    "path": "assets/brand-lockup.css",
+    "bytes": 3425,
+    "sha256": "95323769cd02de5b04d9438448fe38124cbd7b1d69e137199dd6539a6ce017b0",
+    "git_blob_sha": "3e44087325088ce3cb0ecb08773b3f2f82dd2e56"
+  },
+  {
+    "path": "assets/corporate-copy.js",
+    "bytes": 25945,
+    "sha256": "4a7577ac390ca1d1c2449b9c55cca52fb8157805d5bc510c5a49e12099d88142",
+    "git_blob_sha": "e488a479d2508985fe8f54aa4159ccc7818335f5"
+  },
+  {
+    "path": "assets/corporate-review.css",
+    "bytes": 6646,
+    "sha256": "f9bd2867519e48470f3a9a5729b0056da54fa79c709f4c10539441fd4ae4c82b",
+    "git_blob_sha": "ae56026ac546a6cbf1da308e944bbf736302f491"
+  },
+  {
+    "path": "assets/corporate-review.js",
+    "bytes": 7095,
+    "sha256": "3f05aa26a5eef76c6819c1caa557019bfe3e5be6610c05aff8d4014915a7d16b",
+    "git_blob_sha": "d8fcbce927fb60fa11bda374147a69b69adf8d59"
+  },
+  {
+    "path": "assets/covers/come-un-bambino.jpg",
+    "bytes": 41470,
+    "sha256": "f65bc43834859fbe333fe1741c8c63b209aa839a49623658d68d531a36170a55",
+    "git_blob_sha": "cff5709e3f90926ebf8311cd0e0c30b43b261b3a"
+  },
+  {
+    "path": "assets/dossier-excerpts/bofa-page3-title.png",
+    "bytes": 40636,
+    "sha256": "f779d286bf188d105228e7941173cbd10686ea3544afc3aa90cb29d1ce22b2ef",
+    "git_blob_sha": "dbd6679b9abeef618840a37d7534260b89593d9d"
+  },
+  {
+    "path": "assets/fonts/0c22099dbcb30110.woff2",
+    "bytes": 27904,
+    "sha256": "0c22099dbcb30110e74c393b51e00018b9b5d7d224a1a5324d9701b3a8266bb3",
+    "git_blob_sha": "85f53fe9c77598fce95864e9dea58d5c4e6b69e7"
+  },
+  {
+    "path": "assets/fonts/1be3448e292fbf05.woff2",
+    "bytes": 18996,
+    "sha256": "1be3448e292fbf05ffe176fe1e43f135013d50b1e7d324ad1a558f623d3bb6f6",
+    "git_blob_sha": "024f0770326a416e2e8da7ea541959bc049c29d1"
+  },
+  {
+    "path": "assets/fonts/3100e775e8616cd2.woff2",
+    "bytes": 48256,
+    "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+    "git_blob_sha": "d15208de03cd1ad7c5199f0a0ce915fe841e4722"
+  },
+  {
+    "path": "assets/fonts/34b9c504cab7a73e.woff2",
+    "bytes": 85068,
+    "sha256": "34b9c504cab7a73e37b746343a449132e56cf7b5481af2cb81dc74dcff25c956",
+    "git_blob_sha": "479d010d2902fa3a5b48e84a973db1978b2e9949"
+  },
+  {
+    "path": "assets/fonts/45683de03de37187.woff2",
+    "bytes": 86608,
+    "sha256": "45683de03de37187604102316c0b42c0cb2d8dc9c4140a20ad471c3148cc1278",
+    "git_blob_sha": "a40ea8c10356edaf4d93e56638080cddee1dae73"
+  },
+  {
+    "path": "assets/fonts/5c66f9e07e90c6d4.woff2",
+    "bytes": 10252,
+    "sha256": "5c66f9e07e90c6d4ac4922cc68d60de26c17b1858e677fb5e603fce3952b3ff2",
+    "git_blob_sha": "a40c4699cb23a398332b639e0cb2291499943e11"
+  },
+  {
+    "path": "assets/fonts/5dfcd10d24af8c82.woff2",
+    "bytes": 146872,
+    "sha256": "5dfcd10d24af8c82927ba57f7983dd997f7b200594c09c35a1b1ed9fc4597506",
+    "git_blob_sha": "d8b3029d8a6d66ed8903db0a12ef93109c3d6472"
+  },
+  {
+    "path": "assets/fonts/6d0543f06b9d5393.woff2",
+    "bytes": 27248,
+    "sha256": "6d0543f06b9d5393afe5baaeb040817e85af372bf5609d5d55746b1eb56b4010",
+    "git_blob_sha": "1f4448c669c6dde6d95ed2e195b6f7e7f915c2c6"
+  },
+  {
+    "path": "assets/fonts/6e4f2958c3a7c4a8.woff2",
+    "bytes": 132000,
+    "sha256": "6e4f2958c3a7c4a80acde4e5a679abe7e01bc1e30b92be3c7a8b696ef401d101",
+    "git_blob_sha": "c6e5b0ec6ec3903d31ad2864b08108845dec4182"
+  },
+  {
+    "path": "assets/fonts/6e9e020a25f9b56d.woff2",
+    "bytes": 11232,
+    "sha256": "6e9e020a25f9b56d418f2c085b1d3c09725a4da23fe693a5b463064606732190",
+    "git_blob_sha": "6e7141f886ce8859ab302717ef13cd06a4810809"
+  },
+  {
+    "path": "assets/fonts/71d5ee93cc1e9f1d.woff2",
+    "bytes": 18748,
+    "sha256": "71d5ee93cc1e9f1d520a3a8b66456de18c7879d8df09d57fcd2eaff75fef0075",
+    "git_blob_sha": "d750914763177b95070fba3dc83c3d4466919c01"
+  },
+  {
+    "path": "assets/fonts/NOTO-CJK-LICENSE.txt",
+    "bytes": 14712,
+    "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b",
+    "git_blob_sha": "420b42087079f0595edc4809d382e67dc2b31d38"
+  },
+  {
+    "path": "assets/fonts/NOTO-LICENSE.txt",
+    "bytes": 5208,
+    "sha256": "075f91382875da1c4b491f1facf2586f55448705133264d98ce15cab6211b125",
+    "git_blob_sha": "e9dbd010263dc0310e027d02e898786966995c5b"
+  },
+  {
+    "path": "assets/fonts/bb24f6648f75d909.woff2",
+    "bytes": 95540,
+    "sha256": "bb24f6648f75d909eb74535916015c97ef72a1344e532ec7bbaf3f80eb6f389f",
+    "git_blob_sha": "101eadc8d943d59e7e5b0f089578070cdd956616"
+  },
+  {
+    "path": "assets/fonts/ca157063339ac4ad.woff2",
+    "bytes": 25960,
+    "sha256": "ca157063339ac4ad418f214f3abfed119b0798ab4d377386ce5c9e5a7a435ebd",
+    "git_blob_sha": "de83a9c7418a1121c8a59bbc7002c69c43cbe76a"
+  },
+  {
+    "path": "assets/fonts/fonts.css",
+    "bytes": 10408,
+    "sha256": "a16f2c00d2e4f7dab5a951757b70ffa5446259bb9b2dfb711ef404d471684682",
+    "git_blob_sha": "00b402bd3d29218bb23409fa61f037d8dcd5298d"
+  },
+  {
+    "path": "assets/fonts/ginova-arabic.woff",
+    "bytes": 106740,
+    "sha256": "1d494c7e9004c1713696317c985d5eafe3cc49c014f27a6de85fbbf3dc6b2697",
+    "git_blob_sha": "889093e578a544e3f5e9e8963fa536541a05e300"
+  },
+  {
+    "path": "assets/fonts/ginova-chinese.woff",
+    "bytes": 464460,
+    "sha256": "5682b46550b422bebf1b5256b9adcf52ec1b1b96072702e355d172c336a3e768",
+    "git_blob_sha": "622d01f3f70676a00fb3c2c8518ff961fde9bc89"
+  },
+  {
+    "path": "assets/fonts/ginova-universal.woff",
+    "bytes": 258092,
+    "sha256": "4bf57d5c38d9bd87ea7473867a1d0adf70240c5a4146efb8ce45229a659ea140",
+    "git_blob_sha": "6bcec3df829d3063d5eb71d8373c141be6408ed3"
+  },
+  {
+    "path": "assets/fonts/inter-OFL.txt",
+    "bytes": 4377,
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+    "git_blob_sha": "21f6aff961064c2e429f570995e446bcdd555422"
+  },
+  {
+    "path": "assets/fonts/newsreader-OFL.txt",
+    "bytes": 4394,
+    "sha256": "fdfad38143ec470553cae82a1e45320bdd1b9ec70415d37bd0171051d8a4ded8",
+    "git_blob_sha": "d2d4f407109e9c74b8ab502fc79b912408ab8e41"
+  },
+  {
+    "path": "assets/header-contact.css",
+    "bytes": 1227,
+    "sha256": "c6179e9d5fb895cef96d578e833ebe1fcdbd108135ada788bb269dd9b6dd77b3",
+    "git_blob_sha": "0d7eb2982fdab920299a97fc602f6a7fe846459a"
+  },
+  {
+    "path": "assets/header-contact.js",
+    "bytes": 712,
+    "sha256": "3a3a6db87782e04238683da824d8b21544b75b023c67ba6c8d9eff47a68f2762",
+    "git_blob_sha": "2af098e0eeb8a90a26d7ccde646fafed545df72e"
+  },
+  {
+    "path": "assets/i18n-core.js",
+    "bytes": 2865,
+    "sha256": "708d137f426c0ede0a24e7e27cd0eddb3f966f6fd0583091ff169642bd8363f6",
+    "git_blob_sha": "287324f966e81b25445314bf82a8d702f10c4b30"
+  },
+  {
+    "path": "assets/i18n-data.js",
+    "bytes": 982347,
+    "sha256": "f7053e563ac1311032643abd915b65f2e77d34b65dc06a0675f4f70a64e8a6bb",
+    "git_blob_sha": "64144dca11fbd20b4868a07274ea0108da5ab8e0"
+  },
+  {
+    "path": "assets/i18n.css",
+    "bytes": 2257,
+    "sha256": "2089cbb3aa945c5b20e196175bb6e4c100caba9594d352ba973d3db10cab1d73",
+    "git_blob_sha": "4279248c8cc6866f88164db3dd3d0750fa5b6eaa"
+  },
+  {
+    "path": "assets/language-switcher.css",
+    "bytes": 5960,
+    "sha256": "699fb2c01bc917dffc65d4462aa8ef5be70f2bc9d01295c4a87610ac28687ab5",
+    "git_blob_sha": "4312b369965fe092ef258e1077b54b6bc3812dd1"
+  },
+  {
+    "path": "assets/language-switcher.js",
+    "bytes": 6884,
+    "sha256": "fa0369a63762035fae45d62c8b17147fba81ca73992d3c6b65c4838036fb143d",
+    "git_blob_sha": "0cb3dcf66d4ddf0c03be93fd40489ff657fce087"
+  },
+  {
+    "path": "assets/media-trademark-20261012/napoli.webp",
+    "bytes": 302176,
+    "sha256": "ad99fcb7384b630febcb6f245e7e3251fd64c006edfae9eb5a62431f881173a2",
+    "git_blob_sha": "110ce51d85bb6e1cf2a21fbf598e9090bde196bb"
+  },
+  {
+    "path": "assets/media-trademark-20261012/share.png",
+    "bytes": 213643,
+    "sha256": "1e0fbb20ad8f704dcbfc9a6bed8901d3858a2d39ddec96917803b47c4ec03dfa",
+    "git_blob_sha": "5e91e7c94780534c061dddf93a7c8c295714288e"
+  },
+  {
+    "path": "assets/media-trademark-20261012/welcome/soundlab.jpg",
+    "bytes": 43715,
+    "sha256": "76b356118db2ab7f9eac9cefd165928fd3ce697b45d33c319e4b633de042fbb2",
+    "git_blob_sha": "42e058772e45fa6fc94ac71d7cda92937604d684"
+  },
+  {
+    "path": "assets/media-trademark-20261012/welcome/soundlab.mp4",
+    "bytes": 2933691,
+    "sha256": "856115c8213f30641f49d17437839dee24da978628b8b709a123794663daa416",
+    "git_blob_sha": "0b383e259f7fc30fb13c1c89f6b81fecf025fdf9"
+  },
+  {
+    "path": "assets/medialab-hero.js",
+    "bytes": 10811,
+    "sha256": "69ba7b427a7ec60958269f5c9e9d1a5ec127c39e20d195ce3750ebedbb0b8dab",
+    "git_blob_sha": "85ab6146dbac8a7a720ef9a373dc2e6c7940a7ff"
+  },
+  {
+    "path": "assets/medialab-motion/chess-focus.jpg",
+    "bytes": 42658,
+    "sha256": "464c5aa8f58b407d7c6d5444272ed93c5d143c91401eb5e97cdb64a905325273",
+    "git_blob_sha": "7244344c47af8865959ec44a358dc65d933ebcfd"
+  },
+  {
+    "path": "assets/medialab-motion/chess-focus.mp4",
+    "bytes": 3837124,
+    "sha256": "3c1ad6420c35691dae2b655f359f62174b853425fe5dc0f63020e343d1e7fae1",
+    "git_blob_sha": "875ea070028e6fc02fc39d8ca4140b14a63ffb22"
+  },
+  {
+    "path": "assets/medialab-motion/football-character.jpg",
+    "bytes": 61338,
+    "sha256": "770fcd065362afa57c966050eb11b9dec95169f78ae518bf004b50df441fe1ed",
+    "git_blob_sha": "9b286c5ef87e3d7fe12a25d44e632cfccbb2e171"
+  },
+  {
+    "path": "assets/medialab-motion/football-character.mp4",
+    "bytes": 4558146,
+    "sha256": "309da5652a1fcf12d75241d9de3deda6c7273e0b5d9935b0bfd4548381036535",
+    "git_blob_sha": "d0b3a4f11459d89c62b60b56beb35ba785ea47f5"
+  },
+  {
+    "path": "assets/medialab-motion/home-story.jpg",
+    "bytes": 48163,
+    "sha256": "4fc7d667ecde0151cc1c319620e0891e5e15fc87d4988fc64bc367852eab9fb5",
+    "git_blob_sha": "e46f5f96126427631114540a144115ab87a8caf2"
+  },
+  {
+    "path": "assets/medialab-motion/home-story.mp4",
+    "bytes": 2866384,
+    "sha256": "75b9383786fd85b59a5e2ac3b353e75945656a7b5436b311d5ca334eb7c2a16c",
+    "git_blob_sha": "45c79024baa0eea1d8a23ace5edfbf18ab0342d0"
+  },
+  {
+    "path": "assets/medialab-motion/rail-identity.jpg",
+    "bytes": 44340,
+    "sha256": "adb96cd28f39842352e344c6496c3ef03a3603016ed2d560bde1e9a60449d696",
+    "git_blob_sha": "15d45f2292c4b3037c1a8f8e36095ea31f5d706b"
+  },
+  {
+    "path": "assets/medialab-motion/rail-identity.mp4",
+    "bytes": 3229071,
+    "sha256": "436964de2fcf7a243ac3189c24da55d571e872a0a33ce14d6dfcc61ab8a9bf4b",
+    "git_blob_sha": "13ccecda40b190f9d4960d4a95f885910e41ebe2"
+  },
+  {
+    "path": "assets/medialab-motion/tactical-montage-web.mp4",
+    "bytes": 4113323,
+    "sha256": "459b1ecc51287afde858814ba2cc8590d1f942875158f85baff82e8ea9be8678",
+    "git_blob_sha": "b0119aaba704b4097f8d66abb86f9f4a8d9d3b3c"
+  },
+  {
+    "path": "assets/medialab-motion/tactical-montage.jpg",
+    "bytes": 36181,
+    "sha256": "a5f509054719fba13259883a241ccbab19f4daafd7a71205987f7a6ac4ac53ac",
+    "git_blob_sha": "3348977df68932fda1e3c8cbb3e5adcea938e2aa"
+  },
+  {
+    "path": "assets/medialab-motion/village-journey.jpg",
+    "bytes": 65693,
+    "sha256": "6e64b4ec418bcc21ca237b3d5d19f4428d29a61a73e867376b43ad728bba7474",
+    "git_blob_sha": "6fd7d64a2021d72311e628bb048e5216a572bf49"
+  },
+  {
+    "path": "assets/medialab-motion/village-journey.mp4",
+    "bytes": 4504647,
+    "sha256": "311079c73615b189e7d5ddcc20ec6a9c3d9c54e2263298cdc78ad2444dc9513a",
+    "git_blob_sha": "c7b7afa0911d6fbd6d24d26800091ba723643b03"
+  },
+  {
+    "path": "assets/medialab-motion.js",
+    "bytes": 10622,
+    "sha256": "cc8cca371d396a93db7561b4c6496433e48c9f3023f909cd1ce85a0abc39d6eb",
+    "git_blob_sha": "8eba09ceba9b66bed9a659002d3f08079aa4daa5"
+  },
+  {
+    "path": "assets/medialab-presentation.css",
+    "bytes": 18221,
+    "sha256": "1db8c670ffc22d541154dcee549aa7ded899211a2f23570fd6bff1f44dedb1ff",
+    "git_blob_sha": "8ceb38d96c1ae58d2ed5e16014afd2e178ae7a5e"
+  },
+  {
+    "path": "assets/medialab-presentation.js",
+    "bytes": 1262,
+    "sha256": "b6ede13a8e522335ff3b13a20c2fd451f4856ed255a94b138f2a76279f354ab4",
+    "git_blob_sha": "dc8fb59286812aada2636950d41d1e53f7d06475"
+  },
+  {
+    "path": "assets/owner-redesign-20261012/copy.js",
+    "bytes": 23861,
+    "sha256": "632400ebbf83fc1edb537a5374d4d31972bbb12f56e75d7868992b5b5e659e5e",
+    "git_blob_sha": "ee89908ea065f67a3694d9f42831b8c66680b5f3"
+  },
+  {
+    "path": "assets/owner-redesign-20261012/owner.css",
+    "bytes": 22217,
+    "sha256": "a3c08ebf726fe3615b810cd334f423bcbf13dcb72d72138c1ccfb80d8ad059f9",
+    "git_blob_sha": "a19630b18396f3964285640fe675fd28e548e635"
+  },
+  {
+    "path": "assets/owner-redesign-20261012/owner.js",
+    "bytes": 3056,
+    "sha256": "134131c6b9a922069cef177827a0bf5dbefe4c472a5f15add64a0cabeaf28f5e",
+    "git_blob_sha": "cf20054cac85a598838bb8de49356e771bd8d367"
+  },
+  {
+    "path": "assets/partners/odtu-official-black.png",
+    "bytes": 26762,
+    "sha256": "b8cc45b52ed08298b33164dc4e7bab868f7036e2e9476e28f0060096a4b50051",
+    "git_blob_sha": "f3499dcab8560aae0edf0737fd23aad3aafa53dc"
+  },
+  {
+    "path": "assets/partners/sase-logo.png",
+    "bytes": 2687,
+    "sha256": "c4702ea5701acafa16b4d22273661be70b842e78eed9c3570832c1a86a6c9d91",
+    "git_blob_sha": "44dfd59aba80b5b363a4a28c41efe50e13fe2f40"
+  },
+  {
+    "path": "assets/partners/trend-logo.jpg",
+    "bytes": 6083,
+    "sha256": "3e693cb076255c3dd901c2d09b585b3c4499ab6ae21ac0e13767d5b40a166f0a",
+    "git_blob_sha": "e8fe6251232a70f4a458462c39029fc1bc2ef0f3"
+  },
+  {
+    "path": "assets/proposal-flow.js",
+    "bytes": 837,
+    "sha256": "dd87abf45ed25963b00dc14a2fef5df883661b08b3cb8a2d6f7828dc529ec255",
+    "git_blob_sha": "f744bb1d2c0b20e893cd45e9fd88eae2f4195a5a"
+  },
+  {
+    "path": "assets/review-accessibility.js",
+    "bytes": 2046,
+    "sha256": "9fed229792b37d66514fb32b521bb6aa2824757500418f020349d0e02dbb2883",
+    "git_blob_sha": "5886ef69b3abcaab68a17dd3271221e90e16dd35"
+  },
+  {
+    "path": "assets/section-elevator.css",
+    "bytes": 1486,
+    "sha256": "756f083421ecfcabf9d7a819631c7a19430245cce8119b078bf87251a86917e0",
+    "git_blob_sha": "a0306ace46f9c3117f68550c8ed49994a17037cd"
+  },
+  {
+    "path": "assets/section-elevator.js",
+    "bytes": 7229,
+    "sha256": "fd5141213923733117917b7050009e1f4aa3666cc39d5fdd4d1cc025150e9b6b",
+    "git_blob_sha": "006bcb09e69d79f60ea1ff13f6b022619bb042f6"
+  },
+  {
+    "path": "assets/soundlab-studies/study-1.webp",
+    "bytes": 290434,
+    "sha256": "522a656a4fe9ef076cbb61d578a31ed839ee954d6f9e214b96222ddb313e52e7",
+    "git_blob_sha": "dcff508539368310fbe264aae42186af9e27415f"
+  },
+  {
+    "path": "assets/soundlab-studies/study-2.webp",
+    "bytes": 239016,
+    "sha256": "9ea4a57968a6eae0fd6af99c745c9319c87f5085cbb630e1dbeb3ae6f84b27a0",
+    "git_blob_sha": "7ec74e3c7749a8f5cbc44875ef67dff32c122ff5"
+  },
+  {
+    "path": "assets/strategy-20261012/copy.js",
+    "bytes": 82885,
+    "sha256": "0f91539c0b7960befd27b264aa6b7f87f875df6edae5c501873043e16310c5c9",
+    "git_blob_sha": "de74f2f9150430048a146ae59e9cc46a022f7e2a"
+  },
+  {
+    "path": "assets/strategy-20261012/strategy.css",
+    "bytes": 4793,
+    "sha256": "f09b60a8555cecf7bcef55eddbd56bed8aa65dc3771f40646cdc7defe0be36ea",
+    "git_blob_sha": "785c3c3287f7ef98d1033a2f617fe867065e03e2"
+  },
+  {
+    "path": "assets/strategy-20261012/strategy.js",
+    "bytes": 1559,
+    "sha256": "1faa960e8c647c91bf2b0821f6a184e547ebe038b5a26a12669421a1db316511",
+    "git_blob_sha": "8d8365f4af792d035ae63901ee3a670909374f49"
+  },
+  {
+    "path": "assets/trademark-20261012/trademark.css",
+    "bytes": 1776,
+    "sha256": "1fd32556fd131063a2e72d07bf3207f58646ec0f7f495ca20a46291df99b9ad4",
+    "git_blob_sha": "69d0dd00836f70b52b761528d801db0aa26fdf02"
+  },
+  {
+    "path": "assets/trademark-20261012/trademark.js",
+    "bytes": 1921,
+    "sha256": "48e0ed5f8d4ea51b319f1959fb76e2e51b513a01fd5b4ef863d0623278687c05",
+    "git_blob_sha": "51b164bc1f9c7a4b836c63d65c31d4587dbb43f5"
+  },
+  {
+    "path": "assets/uniform-typography.css",
+    "bytes": 1156,
+    "sha256": "b5599c51d498dd799e15df5f0dd5539462b329f2c67a00be5a8933fee4d9952f",
+    "git_blob_sha": "82dd915fd891724aaa98969943d899bb312945b6"
+  },
+  {
+    "path": "index.html",
+    "bytes": 267170,
+    "sha256": "6166457061a7c09836cd9df21895d7268ba28354151be4febbaf847aaaf3ccbf",
+    "git_blob_sha": "a22863cd5bf3a0b1017d4c9993b6c546f642abf4"
+  },
+  {
+    "path": "labs/medialab/index.html",
+    "bytes": 267170,
+    "sha256": "6166457061a7c09836cd9df21895d7268ba28354151be4febbaf847aaaf3ccbf",
+    "git_blob_sha": "a22863cd5bf3a0b1017d4c9993b6c546f642abf4"
+  },
+  {
+    "path": "robots.txt",
+    "bytes": 23,
+    "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+    "git_blob_sha": "c2a49f4fb82f19ffa9089fcf8630e5a2870d3feb"
+  }
+]
