@@ -529,9 +529,9 @@
   },
   {
     "path": "assets/trademark-20261012/trademark.js",
-    "bytes": 1921,
-    "sha256": "48e0ed5f8d4ea51b319f1959fb76e2e51b513a01fd5b4ef863d0623278687c05",
-    "git_blob_sha": "51b164bc1f9c7a4b836c63d65c31d4587dbb43f5"
+    "bytes": 3097,
+    "sha256": "54ec32ad06533ffd6f175bfed2ce81f27a208dfc26dcfad41aef27be112da3be",
+    "git_blob_sha": "50e838d2ce60b017029467828ad103a962a16df4"
   },
   {
     "path": "assets/uniform-typography.css",
@@ -541,15 +541,15 @@
   },
   {
     "path": "index.html",
-    "bytes": 267170,
-    "sha256": "6166457061a7c09836cd9df21895d7268ba28354151be4febbaf847aaaf3ccbf",
-    "git_blob_sha": "a22863cd5bf3a0b1017d4c9993b6c546f642abf4"
+    "bytes": 267237,
+    "sha256": "56b2f8d4f0c842f7257b0b97a30c85742d3fe674262445921d5abdd6e1813437",
+    "git_blob_sha": "d44c86abb72c118fb6bfa16701a3c54c98a7ce61"
   },
   {
     "path": "labs/medialab/index.html",
-    "bytes": 267170,
-    "sha256": "6166457061a7c09836cd9df21895d7268ba28354151be4febbaf847aaaf3ccbf",
-    "git_blob_sha": "a22863cd5bf3a0b1017d4c9993b6c546f642abf4"
+    "bytes": 267237,
+    "sha256": "56b2f8d4f0c842f7257b0b97a30c85742d3fe674262445921d5abdd6e1813437",
+    "git_blob_sha": "d44c86abb72c118fb6bfa16701a3c54c98a7ce61"
   },
   {
     "path": "robots.txt",
