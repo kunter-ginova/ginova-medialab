@@ -24,6 +24,120 @@
     "git_blob_sha": "5a4f1492c05bb0585c864564e657513f385c5e1d"
   },
   {
+    "path": "assets/atlas-20261019/album-data.js",
+    "bytes": 10877,
+    "sha256": "ebd374001e756b596f63b0ab409faef581856ebd9d356dfa816dc4a064236438",
+    "git_blob_sha": "3d776f75c11ecb89da81ac8be05454e49011ce32"
+  },
+  {
+    "path": "assets/atlas-20261019/atlas-player.css",
+    "bytes": 4749,
+    "sha256": "dfb60cc8b327d1ccde7169937ad942cc714ef964d1e60530466fbf2a4d7f9c73",
+    "git_blob_sha": "6d5a306425ec361877256af72e011beecf3f2124"
+  },
+  {
+    "path": "assets/atlas-20261019/atlas-player.js",
+    "bytes": 6359,
+    "sha256": "f9b7d55e2fdaa02638bc99f28cd83f59c468d1bf110351f910de0e9f893e1357",
+    "git_blob_sha": "4a61458d9050eecef4936dc812499f2d39706649"
+  },
+  {
+    "path": "assets/atlas-20261019/original/A_Season_Of_Mending.mp3",
+    "bytes": 4231690,
+    "sha256": "523da7393c6416d60f400d9c94c411df99118319985cfbff097a9e20cf912c11",
+    "git_blob_sha": "ae248c2c31af3116c944cc4bafcdc8ca0b7e7337"
+  },
+  {
+    "path": "assets/atlas-20261019/original/Ascent_to_the_Spire.mp3",
+    "bytes": 4300026,
+    "sha256": "178f4d5ce210880e943cdd836ab75cdfc0fda337702a8997bd46d52435b130e9",
+    "git_blob_sha": "703d8bfbcf4af5ad0257867b449b6bf59d74f596"
+  },
+  {
+    "path": "assets/atlas-20261019/original/Calculated_Grace.mp3",
+    "bytes": 3925117,
+    "sha256": "c11a67ecf2dcb51aebf679c83a977132585d76be2661da25378aac198e6110a1",
+    "git_blob_sha": "44cc79a441d01211bbfc5ca1a63e351352af2bf4"
+  },
+  {
+    "path": "assets/atlas-20261019/original/Morning_Architecture.mp3",
+    "bytes": 3894397,
+    "sha256": "4d5dc6dc07114675f44e906f4c3f9242a287abb8a987d2b70e288946b1ae502b",
+    "git_blob_sha": "8be108f831382630690ff184ca7649735f5e3333"
+  },
+  {
+    "path": "assets/atlas-20261019/original/Morning_Light_Through_Glass.mp3",
+    "bytes": 4205359,
+    "sha256": "a1253238b2b38b94ca942b0c9872c61fb827ed4b024fb2065938fcb15500ea04",
+    "git_blob_sha": "1551ef4acb8d8999c1ea084869db26a7271f4e2d"
+  },
+  {
+    "path": "assets/atlas-20261019/original/Morning_at_the_Spire.mp3",
+    "bytes": 4303788,
+    "sha256": "8bcc25cbf7503a8abe09225a9275b243d2012feeb7dadee801f346e5eda5b3ae",
+    "git_blob_sha": "f9a7d6f77abbbe63c35510569bcccef816af49ca"
+  },
+  {
+    "path": "assets/atlas-20261019/original/Morning_in_the_Atrium.mp3",
+    "bytes": 3900666,
+    "sha256": "7504227252231cfdfb365c68197b483098dbf799f39cc5f23e141500395ea4ed",
+    "git_blob_sha": "36eddf87c7573bc7ec1c3d9ff4791aa8a73288bf"
+  },
+  {
+    "path": "assets/atlas-20261019/original/Sovereign_Motion.mp3",
+    "bytes": 4302534,
+    "sha256": "51c1a30b34aa199b7231255074360dea6505b852258c7df07af3335a9cb5b293",
+    "git_blob_sha": "58bb1b8a5f37dd51331ef9a03dd00e597ba1e08c"
+  },
+  {
+    "path": "assets/atlas-20261019/original/Sunlight_on_White_Stone.mp3",
+    "bytes": 4237332,
+    "sha256": "589aa628395f2d6f4694852149f30e31a1d7fdf7024e62163e6eb607999f463b",
+    "git_blob_sha": "2c53b4d2f4322a23d2768a4d2d14092e474e3140"
+  },
+  {
+    "path": "assets/atlas-20261019/original/Sunrise_Over_the_Glass_Spire.mp3",
+    "bytes": 4177773,
+    "sha256": "61bd21882c16cd8f008dac26d9e567f63abc1084c857540b5235ada5ea749009",
+    "git_blob_sha": "e87d273779869ca5c41fc688797e678fb1a15c81"
+  },
+  {
+    "path": "assets/atlas-20261019/original/The_Foundry’s_Return.mp3",
+    "bytes": 4300026,
+    "sha256": "3ecc6987e9e7557242ea0f544bb13eb9d9a1d5a5fdaf80287b7c825bd35e35ea",
+    "git_blob_sha": "a58d385500f04152ef8123168d516d66a11049f5"
+  },
+  {
+    "path": "assets/atlas-20261019/original/The_Gentlest_Ascent.mp3",
+    "bytes": 4312565,
+    "sha256": "41388ad8391c94a7e73a3090c7ecd522ceed7acbdf8b57f280ca3172eac66a90",
+    "git_blob_sha": "d2adf7afd1345dfe090564c2c49d6a205ab09104"
+  },
+  {
+    "path": "assets/atlas-20261019/original/The_Patient_Morning.mp3",
+    "bytes": 4202224,
+    "sha256": "3c222fbad4ac3e267681a9b4928da07170ec123ca725bd8625199efc8fa96164",
+    "git_blob_sha": "e85eed503b4866db86ea96c86a645d06caef5af4"
+  },
+  {
+    "path": "assets/atlas-20261019/original/The_Slow_Ascent.mp3",
+    "bytes": 3888128,
+    "sha256": "acf22e227d86a3bbc6d23d94c862db2940f176460fb28c70c2e52b825d3ba224",
+    "git_blob_sha": "e6b8d294fb8f31ebc5c18ca86d319928248c8e71"
+  },
+  {
+    "path": "assets/atlas-20261019/original/Where_Mountains_Breathe.mp3",
+    "bytes": 3974645,
+    "sha256": "c86d1355e2760d9bce09d7796ba3ded0d4c78f3155ade0b1b13e60ba52caa07c",
+    "git_blob_sha": "56ce7c4ed71e3133c7dbdc105d6f63f7e735a6c8"
+  },
+  {
+    "path": "assets/atlas-20261019/original/Where_the_Stars_Fade.mp3",
+    "bytes": 3824807,
+    "sha256": "8706f58051e4c0351c4ca653eecaad713fecd44241e4ee40a82acb712d434cf7",
+    "git_blob_sha": "c2e63605776e3c78086107b339b610da70728cae"
+  },
+  {
     "path": "assets/audio/campi-flegrei-epic-orchestral-anthem.mp3",
     "bytes": 8097521,
     "sha256": "6f7ad5d70c2e8c9f2ed40e655030095261c80164e8a3e61e96441cb196156a76",
@@ -342,6 +456,12 @@
     "git_blob_sha": "85ab6146dbac8a7a720ef9a373dc2e6c7940a7ff"
   },
   {
+    "path": "assets/medialab-motion.js",
+    "bytes": 10622,
+    "sha256": "cc8cca371d396a93db7561b4c6496433e48c9f3023f909cd1ce85a0abc39d6eb",
+    "git_blob_sha": "8eba09ceba9b66bed9a659002d3f08079aa4daa5"
+  },
+  {
     "path": "assets/medialab-motion/chess-focus.jpg",
     "bytes": 42658,
     "sha256": "464c5aa8f58b407d7c6d5444272ed93c5d143c91401eb5e97cdb64a905325273",
@@ -412,12 +532,6 @@
     "bytes": 4504647,
     "sha256": "311079c73615b189e7d5ddcc20ec6a9c3d9c54e2263298cdc78ad2444dc9513a",
     "git_blob_sha": "c7b7afa0911d6fbd6d24d26800091ba723643b03"
-  },
-  {
-    "path": "assets/medialab-motion.js",
-    "bytes": 10622,
-    "sha256": "cc8cca371d396a93db7561b4c6496433e48c9f3023f909cd1ce85a0abc39d6eb",
-    "git_blob_sha": "8eba09ceba9b66bed9a659002d3f08079aa4daa5"
   },
   {
     "path": "assets/medialab-presentation.css",
@@ -541,15 +655,15 @@
   },
   {
     "path": "index.html",
-    "bytes": 267237,
-    "sha256": "56b2f8d4f0c842f7257b0b97a30c85742d3fe674262445921d5abdd6e1813437",
-    "git_blob_sha": "d44c86abb72c118fb6bfa16701a3c54c98a7ce61"
+    "bytes": 269386,
+    "sha256": "631b108907cc36ba2b23c6bb4386f264950d1e6491b5cd74ab35708fe0202dc2",
+    "git_blob_sha": "b14ce8fbc8406d35729634a95de89590125051eb"
   },
   {
     "path": "labs/medialab/index.html",
-    "bytes": 267237,
-    "sha256": "56b2f8d4f0c842f7257b0b97a30c85742d3fe674262445921d5abdd6e1813437",
-    "git_blob_sha": "d44c86abb72c118fb6bfa16701a3c54c98a7ce61"
+    "bytes": 269386,
+    "sha256": "631b108907cc36ba2b23c6bb4386f264950d1e6491b5cd74ab35708fe0202dc2",
+    "git_blob_sha": "b14ce8fbc8406d35729634a95de89590125051eb"
   },
   {
     "path": "robots.txt",
