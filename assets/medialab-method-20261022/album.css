@@ -1,0 +1,43 @@
+/* MediaLab-only album context; no header, body or global palette changes. */
+main#top section.mm-album{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);align-items:center;gap:56px;padding:64px 48px;background:#e5e9dd;color:#17221b;min-height:0;scroll-margin-top:105px}
+main#top .mm-album-copy{min-width:0;max-width:530px}
+main#top .mm-album-kicker{font:500 10px/1.6 var(--gn-font-sans,Arial,sans-serif);letter-spacing:.12em;margin:0 0 20px}
+main#top .mm-album-title{font:400 clamp(34px,4vw,58px)/1.05 'Newsreader',Georgia,serif;letter-spacing:-.03em;overflow-wrap:anywhere;word-break:normal;margin:0 0 22px;color:inherit}
+main#top .mm-album-intro{font:400 13px/1.75 var(--gn-font-sans,Arial,sans-serif);max-width:390px;margin:0 0 20px}
+main#top .mm-album-source{font:400 11px/1.65 var(--gn-font-sans,Arial,sans-serif);margin:0 0 24px;color:#53644f}
+main#top .mm-album-source>span{display:block;margin-bottom:3px;font-size:9px;letter-spacing:.04em}
+main#top .mm-album-direct{display:inline-flex;align-items:center;gap:24px;min-height:44px;color:inherit;font:500 12px/1.6 var(--gn-font-sans,Arial,sans-serif);text-underline-offset:5px}
+main#top .mm-album-external{display:block;font:400 10px/1.65 var(--gn-font-sans,Arial,sans-serif);margin-top:5px;color:#5f6c5a}
+main#top .mm-album-media{min-width:0}
+main#top .mm-album-poster{position:relative;isolation:isolate;display:flex;flex-direction:column;justify-content:space-between;min-height:330px;aspect-ratio:16/9;background:#14221b;color:#f3f0e8;padding:28px;overflow:hidden}
+main#top .mm-album-poster::before{content:"";position:absolute;inset:0;z-index:-1;background:repeating-linear-gradient(110deg,transparent 0,transparent 44px,#f3f0e80b 45px,#f3f0e80b 46px),radial-gradient(ellipse at 85% 15%,#a47a4260,transparent 65%)}
+main#top .mm-album-poster-top{font:400 9px/1.6 var(--gn-font-sans,Arial,sans-serif);letter-spacing:.12em;opacity:.85}
+main#top .mm-album-poster-title{display:block;font:400 clamp(27px,3.4vw,50px)/1.05 'Newsreader',Georgia,serif;letter-spacing:-.035em;max-width:540px;margin:26px 0 20px;overflow-wrap:anywhere;word-break:normal;text-wrap:balance}
+main#top .mm-album-poster-label{font:400 9px/1.6 var(--gn-font-sans,Arial,sans-serif);letter-spacing:.04em;margin:0;color:#c7d0bf}
+main#top .mm-album-load{display:inline-flex;align-items:center;justify-content:space-between;gap:26px;min-height:48px;align-self:flex-start;background:#f3f0e8;color:#17221b;border:1px solid #f3f0e8;padding:12px 16px;font:500 12px/1.5 var(--gn-font-sans,Arial,sans-serif);margin-top:22px;cursor:pointer}
+main#top .mm-album-load:hover{background:#dfe8d4;border-color:#dfe8d4}
+main#top .mm-album-player{background:#14221b;color:#f3f0e8;border:1px solid #6c7c65}
+main#top .mm-album-player-bar{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:8px 12px 8px 18px}
+main#top .mm-album-player-bar>bdi{font:400 11px/1.6 var(--gn-font-sans,Arial,sans-serif);min-width:0;overflow-wrap:anywhere}
+main#top .mm-album-close{display:inline-flex;align-items:center;gap:16px;flex:none;min-height:44px;padding:8px;border:0;background:transparent;color:inherit;font:400 11px/1.5 var(--gn-font-sans,Arial,sans-serif);cursor:pointer}
+main#top .mm-album-close:hover{text-decoration:underline;text-underline-offset:4px}
+main#top .mm-album-slot{aspect-ratio:16/9;background:#0d1510}
+main#top .mm-album-slot iframe{display:block;border:0;width:100%;height:100%;aspect-ratio:16/9}
+main#top .mm-album-privacy,main#top .mm-album-status{font:400 10px/1.7 var(--gn-font-sans,Arial,sans-serif);max-width:610px;margin:14px 0 0;color:#53644f}
+main#top .mm-album-status{font-weight:500}
+main#top .mm-album [hidden]{display:none!important}
+main#top .mm-album :is(a,button):focus-visible{outline:3px solid #98613c;outline-offset:5px}
+main#top .mm-album-poster button:focus-visible,main#top .mm-album-player button:focus-visible{outline-color:#ffbc89}
+@media(max-width:1050px){main#top section.mm-album{gap:32px;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}main#top .mm-album-poster{padding:24px;min-height:310px}main#top .mm-album-poster-title{font-size:36px}}
+@media(max-width:760px){
+ main#top section.mm-album{grid-template-columns:minmax(0,1fr);gap:28px;padding:38px 20px}
+ main#top .mm-album-title{font-size:38px;max-width:520px}
+ main#top .mm-album-copy{max-width:none}
+ main#top .mm-album-intro{font-size:12px}
+ main#top .mm-album-poster{padding:22px;min-height:310px;aspect-ratio:auto}
+ main#top .mm-album-poster-title{font-size:36px;margin-block:28px}
+ main#top .mm-album-player-bar{align-items:flex-start;gap:12px;padding:10px 10px 10px 14px}
+ main#top .mm-album-player-bar>bdi{padding-top:10px}
+ main#top .mm-album-close{gap:8px;font-size:10px}
+}
+@media(prefers-reduced-motion:reduce){main#top .mm-album *{scroll-behavior:auto!important;animation:none!important;transition:none!important}}

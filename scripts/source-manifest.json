@@ -486,6 +486,54 @@
     "git_blob_sha": "85ab6146dbac8a7a720ef9a373dc2e6c7940a7ff"
   },
   {
+    "path": "assets/medialab-method-20261022/album-copy.js",
+    "bytes": 9497,
+    "sha256": "1535af9fbc85933822dbe312f3d05322de6f6dbfcaf45b5dc378bd1c2d27f866",
+    "git_blob_sha": "13daf03c8b85639c3517c58fb982fa7b2345dbe5"
+  },
+  {
+    "path": "assets/medialab-method-20261022/album-data.js",
+    "bytes": 327,
+    "sha256": "5c78685ce22cc9a537cc60bf6818b8bf04ea25a4e1654d85a56577d73cbb75f0",
+    "git_blob_sha": "ee0a458212cc28ec9b59b5773ae86f5d2495432c"
+  },
+  {
+    "path": "assets/medialab-method-20261022/album.css",
+    "bytes": 4873,
+    "sha256": "080f6dfb7fbfbb7ce43c72d17b7245855f4e3f1406c37270129d066dbe91bdf3",
+    "git_blob_sha": "fea69b91d0dc61cff7eb42df89a65e60f44069db"
+  },
+  {
+    "path": "assets/medialab-method-20261022/album.js",
+    "bytes": 4982,
+    "sha256": "4bd68c7b41f2d6a4273f5034b5f805dd102ef997c5a2fe7990b520fa10d5f832",
+    "git_blob_sha": "9c39ba09880a580e9734dabedda54c2f486b596e"
+  },
+  {
+    "path": "assets/medialab-method-20261022/lyrics-data.js",
+    "bytes": 28579,
+    "sha256": "5a1c756812ed40943aa092dbdccdc34b8892fc0f1b73338004c91e04a151cbf4",
+    "git_blob_sha": "1bd5c610fdbfde786d07fa96ed4872f03e711a97"
+  },
+  {
+    "path": "assets/medialab-method-20261022/method-copy.js",
+    "bytes": 67927,
+    "sha256": "67e213ffa1480561f63bbbc18813cee691dd09bc996ec1b699195b579a08bf81",
+    "git_blob_sha": "f66380611587432933daef5574796432527e3673"
+  },
+  {
+    "path": "assets/medialab-method-20261022/method.css",
+    "bytes": 11762,
+    "sha256": "57d9a598aa797dddae18394c903bf9a705aec2cdc97062f62769b098fffa985c",
+    "git_blob_sha": "0fdf86079aec46726a9d0d0ea64cee913f166267"
+  },
+  {
+    "path": "assets/medialab-method-20261022/method.js",
+    "bytes": 4770,
+    "sha256": "146b755365b0c328c381d02db1d2a1d792fd1aec558e19b74d5bf073e58dacfe",
+    "git_blob_sha": "b0653a2271b4e614207018f85d4705f6b2380cb3"
+  },
+  {
     "path": "assets/medialab-motion.js",
     "bytes": 10622,
     "sha256": "cc8cca371d396a93db7561b4c6496433e48c9f3023f909cd1ce85a0abc39d6eb",
@@ -703,8 +751,8 @@
   },
   {
     "path": "work/campi-flegrei/index.html",
-    "bytes": 68388,
-    "sha256": "5613178bde8a4b00780e4cdff1156390b87a08267763481c2d125f471f31fbf2",
-    "git_blob_sha": "d65f623e5bf7b61f712b2476138d9aef2ca78a6f"
+    "bytes": 88345,
+    "sha256": "51b831debc47c1f911f17652322bff675cec45c85593353a0ec5485a8474e542",
+    "git_blob_sha": "0598fe8a39a80e06368043f07d5d69242d623c4e"
   }
 ]
