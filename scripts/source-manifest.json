@@ -486,6 +486,48 @@
     "git_blob_sha": "85ab6146dbac8a7a720ef9a373dc2e6c7940a7ff"
   },
   {
+    "path": "assets/medialab-home-review-20261022/home-cinema.css",
+    "bytes": 4983,
+    "sha256": "67818d507f6c1620deb7d4bbae8cc80a3f57a8bede900de44d5bc986a6927f4d",
+    "git_blob_sha": "c14bd0503916edff72894f7cf55b38e2865553bf"
+  },
+  {
+    "path": "assets/medialab-home-review-20261022/home-cinema.js",
+    "bytes": 5284,
+    "sha256": "93d5be6a55ab37f4c20a4795da0004e5743ba85a70c2a7e12f95846e82959940",
+    "git_blob_sha": "f064aed955623cd93d6f498eeffd6a86d90b8222"
+  },
+  {
+    "path": "assets/medialab-home-review-20261022/home-copy.js",
+    "bytes": 48534,
+    "sha256": "d572bc889fb2b546df49254be884c455ceb58918def7a9dad8fa5ba14ebbc136",
+    "git_blob_sha": "29f2522f304145391ee2cb5994ebf024b2e9356d"
+  },
+  {
+    "path": "assets/medialab-home-review-20261022/home-data.js",
+    "bytes": 816,
+    "sha256": "88cd6d1fd88ff61c695210568609fda090d3ae4d3857a16666e5ae8950ce5dd1",
+    "git_blob_sha": "cee3870d4a8b852772765f9c6a40a2e72ee4578a"
+  },
+  {
+    "path": "assets/medialab-home-review-20261022/home-elevator.js",
+    "bytes": 7493,
+    "sha256": "b2c71ce3e2519512164b05e4ad09d2c12c3a0c50dfc0216c6e0cb4f72a4d7e38",
+    "git_blob_sha": "3f31a3ade6945329d8f5c1e27072d991c4eddd33"
+  },
+  {
+    "path": "assets/medialab-home-review-20261022/home.css",
+    "bytes": 18984,
+    "sha256": "a23d748f0e3f0473977befb7f2c875797e74b04e1ea6b1d63cbbce95bb024f67",
+    "git_blob_sha": "b6e985f8e60e829c9592c8d0c4051dafd1943fc1"
+  },
+  {
+    "path": "assets/medialab-home-review-20261022/home.js",
+    "bytes": 3848,
+    "sha256": "e62e01e4c325df57916b39223f4854bcd20f7fcaeff52b6b8f2bfd59512f812b",
+    "git_blob_sha": "fce58aeac5afb73ea93bfec2a300b246dbdf6b58"
+  },
+  {
     "path": "assets/medialab-method-20261022/album-copy.js",
     "bytes": 9497,
     "sha256": "1535af9fbc85933822dbe312f3d05322de6f6dbfcaf45b5dc378bd1c2d27f866",
@@ -733,9 +775,9 @@
   },
   {
     "path": "index.html",
-    "bytes": 270873,
-    "sha256": "d592b1732b3db83427547cbc8cf5cdf1d528e9fa495e13fac456aecc8ffb059d",
-    "git_blob_sha": "5f541a6ebed9bb36ce09097fdf5313ab452ba98c"
+    "bytes": 268498,
+    "sha256": "c813d6747a83f429bae56d6ac2f3e057881d0e4f0e14d375076b1da41f0024fb",
+    "git_blob_sha": "457ff32d47e9c24ccdda97ebbf5ae66e9855790f"
   },
   {
     "path": "labs/medialab/index.html",
