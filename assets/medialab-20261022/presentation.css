@@ -1,0 +1,140 @@
+/* MediaLab revision 2026-10-22. Every selector is confined to the new main
+   content or its dialog. The retained header and its assets are untouched. */
+main#top .ml-opening{position:relative;isolation:isolate;display:flex;min-height:calc(100svh - var(--ml-header-height,89px));padding:0!important;background:#101311;color:#f5f0e5;overflow:clip}
+main#top .ml-opening::after{content:none!important}
+main#top .ml-art{position:absolute;inset:0 0 0 33%;z-index:-2;pointer-events:none}
+main#top .ml-art img{width:100%;height:100%;object-fit:cover;object-position:50% 47%;display:block}
+main#top .ml-art::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#101311 0%,#101311d9 9%,#10131140 36%,#10131100 64%),linear-gradient(0deg,#101311d9,transparent 42%)}
+main#top .ml-opening-inner{width:calc(100% - 96px);max-width:1440px;margin:auto;min-height:calc(100svh - var(--ml-header-height,89px));display:flex;flex-direction:column;padding:32px 0 22px;position:relative;z-index:1}
+main#top .ml-eyebrow{font:500 11px/1.5 var(--gn-font-sans);letter-spacing:.13em;text-transform:uppercase;margin:0}
+main#top .ml-title-row{display:flex;align-items:center;flex:1;padding:34px 0 26px}
+main#top .ml-title-copy{max-width:650px}
+main#top .ml-opening h1{display:flex;flex-direction:column;align-items:flex-start;font:500 clamp(96px,10.5vw,166px)/.85 var(--gn-font-sans)!important;letter-spacing:-.065em!important;color:inherit!important;max-width:none!important;margin:0!important;word-break:normal!important;overflow-wrap:normal!important;hyphens:none!important}
+main#top .ml-opening h1 em{font:400 italic 1.16em/.91 'Newsreader',Georgia,serif!important;letter-spacing:-.055em!important;padding-inline-start:.22em;margin-top:.02em;color:#f08d61;white-space:nowrap}
+main#top .ml-lead{font:400 15px/1.6 var(--gn-font-sans);max-width:370px;color:#eee8dc;margin:26px 0 0;text-wrap:pretty}
+main#top .ml-opening-actions{display:flex;align-items:center;gap:28px;flex-wrap:wrap;padding-bottom:34px}
+main#top .ml-main-link{display:inline-flex;align-items:center;justify-content:space-between;gap:38px;color:inherit;text-decoration:none;font:500 14px/1.4 var(--gn-font-sans);border:1px solid #f5f0e58c;padding:16px 20px;min-height:52px;transition:background .2s,color .2s}
+main#top .ml-main-link:hover{background:#f5f0e5;color:#101311}
+main#top .ml-ident-link{display:inline-flex;align-items:center;gap:10px;color:inherit;text-decoration:none;font:400 12px/1.5 var(--gn-font-sans);min-height:44px}
+main#top .ml-ident-link:hover span:last-child{text-decoration:underline;text-underline-offset:4px}
+main#top .ml-play-glyph{font-size:22px;line-height:1}
+/* The retained navigator is physically right-aligned in every language.
+   Reserve that same physical edge for the entire footer, including its
+   recording control, so RTL text cannot sit underneath either arrow. */
+main#top .ml-opening-foot{display:flex;align-items:center;justify-content:space-between;gap:30px;border-top:1px solid #f5f0e552;padding:19px 64px 0 0}
+main#top .ml-feature-link{display:grid;grid-template-columns:auto auto auto auto;align-items:baseline;column-gap:26px;color:inherit;text-decoration:none;font:400 15px/1.6 var(--gn-font-sans)}
+main#top .ml-feature-link:hover>span:nth-child(2){text-decoration:underline;text-underline-offset:4px}
+main#top .ml-index,main#top .ml-feature-meta{font:400 10px/1.5 var(--gn-font-sans);letter-spacing:.08em}
+main#top .ml-feature-meta{color:#d1c9bd}
+main#top .ml-listen{position:relative;font:400 11px/1.5 var(--gn-font-sans);max-width:310px}
+main#top .ml-listen summary{cursor:pointer;padding:10px 0;min-height:40px}
+main#top .ml-listen .ms-listening-selection{position:absolute;inset-inline-end:0;bottom:calc(100% + 8px);width:min(360px,calc(100vw - 40px));max-width:none;margin:0;padding:14px;background:#171d19;box-shadow:0 6px 32px #0006;border:1px solid #aaa59b}
+main#top .ml-listen #medialab-track{background:#171d19;border-color:#aaa59b}
+main#top .ml-listen #medialab-track-list{top:auto;bottom:calc(100% + 7px)}
+main#top .ml-opening :is(a,button,summary):focus-visible{outline:2px solid #ffbe93;outline-offset:5px}
+.ml-ident-dialog{width:min(1040px,calc(100vw - 40px));max-width:none;max-height:calc(100dvh - 40px);padding:22px;background:#111815;color:#f5f0e5;border:1px solid #69736a;inset:0;margin:auto;overflow:auto}
+.ml-ident-dialog::backdrop{background:#050806e8;backdrop-filter:blur(8px)}
+.ml-ident-dialog .ml-dialog-head{display:flex;gap:20px;align-items:center;justify-content:space-between;margin-bottom:16px}
+.ml-ident-dialog .ml-dialog-head h2{font:400 16px/1.5 var(--gn-font-sans);color:inherit;margin:0}
+.ml-ident-dialog .ml-dialog-head button{min-height:44px;border:0;background:transparent;color:inherit;font:400 13px/1.5 var(--gn-font-sans);padding:0 8px;cursor:pointer}
+.ml-ident-dialog .branch-hero-film{width:100%;margin:0;max-width:none;position:relative;inset:auto;transform:none}
+.ml-ident-dialog .branch-film-screen{position:relative;aspect-ratio:16/9;background:#17201b}
+.ml-ident-dialog video{width:100%;height:100%;display:block;object-fit:contain}
+.ml-ident-dialog .branch-film-controls{position:absolute;bottom:12px;inset-inline-end:12px}
+.ml-ident-dialog :focus-visible{outline:2px solid #ffbe93;outline-offset:4px}
+main#top.ml-project-page{color:#17201b;background:#f3f0e8;padding:0}
+main#top.ml-project-page>section{min-height:0;scroll-margin-top:100px}
+main#top .ml-project-intro{padding:30px 48px 56px;max-width:1536px;margin:auto}
+main#top .ml-project-topline{display:flex;align-items:center;justify-content:space-between;gap:20px;font:400 11px/1.5 var(--gn-font-sans);padding-bottom:46px}
+main#top .ml-project-topline a{color:inherit;text-underline-offset:4px;min-height:44px;display:inline-flex;align-items:center}
+main#top .ml-project-topline>span{font-size:10px;letter-spacing:.1em}
+main#top .ml-project-intro h1{font:500 clamp(76px,12vw,172px)/.83 var(--gn-font-sans);letter-spacing:-.065em;margin:24px 0 46px;color:#18231d;overflow-wrap:normal}
+main#top .ml-project-intro h1 span{color:#657566;padding-inline-start:.34em}
+main#top .ml-project-deck{display:grid;grid-template-columns:1fr 1fr;gap:48px;border-top:1px solid #a5aca0;padding-top:28px}
+main#top .ml-project-deck h2{font:400 clamp(28px,3.4vw,44px)/1.1 'Newsreader',Georgia,serif;letter-spacing:-.02em;margin:0;max-width:360px}
+main#top .ml-project-deck>p{font:400 15px/1.65 var(--gn-font-sans);margin:0;max-width:470px}
+main#top .ml-project-listening{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);background:#14221b;color:#f5f0e5;align-items:center;padding:0}
+main#top .ml-study{margin:0;position:relative;background:#0f1914}
+main#top .ml-study img{display:block;width:100%;height:auto;aspect-ratio:1;object-fit:cover}
+main#top .ml-study figcaption{position:absolute;bottom:0;inset-inline:0;display:flex;justify-content:space-between;padding:42px 24px 18px;color:white;background:linear-gradient(transparent,#0009);font:400 9px/1.5 var(--gn-font-sans);letter-spacing:.08em}
+main#top .ml-listening-console{padding:48px;min-width:0}
+main#top .ml-version-choice{display:grid;gap:0;margin-bottom:40px}
+main#top .ml-version{display:grid;grid-template-columns:24px 1fr auto;gap:16px;align-items:baseline;text-align:start;color:inherit;width:100%;border:0;border-top:1px solid #67746a;background:transparent;padding:20px 0;cursor:pointer;font:400 14px/1.5 var(--gn-font-sans)}
+main#top .ml-version[aria-pressed=true]{border-top-color:#f3ac78;color:#ffbc89}
+main#top .ml-version>span:first-child,main#top .ml-version time{font-size:10px}
+main#top .ml-version[aria-pressed=true]>span:first-child::before{content:'●';display:inline-block;font-size:6px;margin-inline-end:5px;vertical-align:middle}
+main#top .ml-listening-console article{padding-bottom:24px}
+main#top .ml-listening-console article h2{font:400 30px/1.2 'Newsreader',Georgia,serif;margin:0 0 24px;color:inherit}
+main#top .ml-listening-console audio{display:block;width:100%;height:48px;max-width:100%;margin:0 0 20px;color-scheme:dark}
+main#top .ml-file-link{font:400 11px/1.5 var(--gn-font-sans);color:inherit;text-underline-offset:4px;display:inline-flex;min-height:28px;align-items:center}
+main#top .ml-playback-note,main#top .ml-study-note{font:400 11px/1.65 var(--gn-font-sans);color:#c9d0c6;max-width:330px;margin:14px 0 0}
+main#top .ml-study-note{padding-top:14px;border-top:1px solid #526258}
+main#top .ml-project-evidence{display:grid;grid-template-columns:1fr 1fr;gap:80px;padding:76px 48px;max-width:1536px;margin:auto}
+main#top .ml-project-facts dl{margin-top:26px}
+main#top .ml-project-facts dl>div{display:grid;grid-template-columns:minmax(100px,.65fr) 1fr;gap:22px;padding:17px 0;border-top:1px solid #c1c7bb;font:400 13px/1.6 var(--gn-font-sans)}
+main#top .ml-project-facts dt{color:#5a675c}
+main#top .ml-project-facts dd{margin:0}
+main#top .ml-claim-note{font:400 11px/1.65 var(--gn-font-sans);color:#58645a;max-width:400px;margin-top:22px}
+main#top .ml-album-context{display:grid;grid-template-columns:minmax(110px,.9fr) minmax(0,1.1fr);gap:26px;align-items:start}
+main#top .ml-album-context>img{display:block;width:100%;height:auto}
+main#top .ml-album-context h2{font:400 29px/1.05 'Newsreader',Georgia,serif;letter-spacing:-.025em;margin:20px 0}
+main#top .ml-album-context p:not(.ml-eyebrow){font:400 12px/1.65 var(--gn-font-sans);margin:0}
+main#top .ml-album-context a{display:inline-block;font:400 11px/1.6 var(--gn-font-sans);color:inherit;text-underline-offset:4px;margin-top:20px;min-height:44px}
+main#top .ml-project-enquiry{background:#e3e7db;padding:60px 48px;display:flex;flex-direction:column;align-items:flex-start;gap:24px}
+main#top .ml-project-enquiry h2{font:400 clamp(40px,5.7vw,78px)/1.05 'Newsreader',Georgia,serif;max-width:670px;letter-spacing:-.035em;margin:0}
+main#top .ml-project-enquiry>a{color:inherit;display:inline-flex;gap:50px;padding:15px 0;border-bottom:1px solid currentColor;font:400 14px/1.5 var(--gn-font-sans);text-decoration:none}
+main#top.ml-project-page :is(a,button):focus-visible{outline:3px solid #98613c;outline-offset:5px}
+main#top [hidden]{display:none!important}
+/* Arabic follows the retained site's direction. Artwork remains direction-neutral. */
+html[dir=rtl] main#top .ml-opening h1{align-items:flex-start;font-size:clamp(76px,9.2vw,140px)!important;line-height:1.1!important;letter-spacing:0!important}
+html[dir=rtl] main#top .ml-opening h1 em{font-family:var(--gn-font-serif)!important;font-style:normal!important;letter-spacing:0!important;padding-inline-start:0}
+html[dir=rtl] main#top .ml-art{inset:0 33% 0 0;transform:scaleX(-1)}
+html[dir=rtl] main#top .ml-project-intro h1{direction:ltr;text-align:right}
+html[lang|=zh] main#top .ml-opening h1{font-size:clamp(80px,9vw,140px)!important;line-height:1!important;letter-spacing:0!important}
+html[lang|=zh] main#top .ml-opening h1 em{font-family:var(--gn-font-serif)!important;font-style:normal!important;letter-spacing:0!important;font-size:.78em!important}
+html[lang=ru] main#top .ml-opening h1 em{font-size:clamp(32px,11.5vw,78px)!important;line-height:1.2!important}
+@media(min-width:1600px){main#top .ml-title-row{padding-top:65px;padding-bottom:50px}}
+@media(max-width:1000px){main#top .ml-feature-meta{display:none}main#top .ml-project-evidence{gap:40px}main#top .ml-album-context{grid-template-columns:1fr}main#top .ml-album-context>img{max-width:180px}main#top .ml-listening-console{padding:32px}main#top .ml-version{gap:10px;font-size:12px}}
+@media(max-width:760px){
+ main#top .ml-opening-inner{width:calc(100% - 40px);padding:25px 0 18px;min-height:calc(100svh - var(--ml-header-height,89px))}
+ main#top .ml-art{inset:0 0 0 0;opacity:.85}main#top .ml-art img{object-position:63% center}
+ main#top .ml-art::after{background:linear-gradient(90deg,#101311eb,#10131199 45%,#10131130),linear-gradient(0deg,#101311e8,transparent 70%)}
+ main#top .ml-eyebrow{font-size:9px;letter-spacing:.1em}
+ main#top .ml-title-row{padding:45px 0 24px}
+ main#top .ml-opening h1{font-size:clamp(64px,18.5vw,140px)!important;line-height:.86!important}
+ main#top .ml-lead{font-size:13px;line-height:1.65;max-width:290px;margin-top:22px}
+ main#top .ml-opening-actions{gap:14px 22px;padding-bottom:25px}
+ main#top .ml-main-link{font-size:12px;min-height:48px;padding:14px 16px;gap:25px}
+ main#top .ml-ident-link{font-size:11px}
+ main#top .ml-opening-foot{flex-wrap:wrap;gap:6px;padding-top:12px}
+ main#top .ml-feature-link{grid-template-columns:1fr auto;width:100%;gap:6px 18px;font-size:12px}
+ main#top .ml-feature-link .ml-index{grid-column:1/-1}
+ main#top .ml-index{font-size:8px}
+ main#top .ml-listen{font-size:10px;max-width:none;width:100%}
+ main#top .ml-listen .ms-listening-selection{inset-inline-start:0;inset-inline-end:auto}
+ main#top .ml-project-intro{padding:18px 20px 34px}
+ main#top .ml-project-topline{padding-bottom:27px;font-size:10px}
+ main#top .ml-project-topline>span{font-size:8px}
+ main#top .ml-project-intro h1{font-size:clamp(68px,15vw,110px);margin:20px 0 30px}
+ main#top .ml-project-deck{grid-template-columns:1fr;gap:18px;padding-top:20px}
+ main#top .ml-project-deck h2{font-size:32px;max-width:260px}
+ main#top .ml-project-deck>p{font-size:13px}
+ main#top .ml-project-listening{grid-template-columns:1fr}
+ main#top .ml-listening-console{padding:28px 20px 30px}
+ main#top .ml-version-choice{margin-bottom:26px}
+ main#top .ml-version{font-size:13px}
+ main#top .ml-listening-console article h2{font-size:30px;margin-bottom:18px}
+ main#top .ml-project-evidence{grid-template-columns:1fr;gap:40px;padding:40px 20px}
+ main#top .ml-project-facts dl>div{font-size:12px}
+ main#top .ml-album-context{grid-template-columns:minmax(100px,.8fr) 1fr;gap:20px}
+ main#top .ml-album-context h2{font-size:24px}
+ main#top .ml-project-enquiry{padding:40px 20px}
+ main#top .ml-project-enquiry h2{font-size:44px}
+ html[dir=rtl] main#top .ml-art{inset:0;transform:scaleX(-1)}
+ html[dir=rtl] main#top .ml-opening h1{font-size:clamp(62px,16vw,110px)!important}
+ html[lang|=zh] main#top .ml-opening h1{font-size:clamp(56px,18vw,115px)!important}
+}
+@media(max-height:650px) and (min-width:761px){main#top .ml-opening h1{font-size:108px!important}main#top .ml-title-row{padding:20px 0}main#top .ml-opening-actions{padding-bottom:20px}}
+@media(max-height:750px) and (min-width:761px){main#top .ml-opening h1{font-size:118px!important}main#top .ml-title-row{padding:18px 0}main#top .ml-lead{margin-top:18px}main#top .ml-opening-actions{padding-bottom:24px}}
+@media(prefers-reduced-motion:reduce){main#top .ml-opening *,main#top.ml-project-page *{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+@media print{main#top .ml-art{opacity:.2}main#top .ml-opening{color:#111;background:#fff}.ml-ident-dialog{display:none}main#top .ml-project-listening{color:#111;background:#fff}}

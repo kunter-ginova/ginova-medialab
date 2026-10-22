@@ -450,6 +450,36 @@
     "git_blob_sha": "0b383e259f7fc30fb13c1c89f6b81fecf025fdf9"
   },
   {
+    "path": "assets/medialab-20261022/copy.js",
+    "bytes": 21746,
+    "sha256": "6b22f4df92fd6af80a95a875e02abf423a77708b6d0def9bc3eb3bb6cc39b1d6",
+    "git_blob_sha": "185275896e858c473ba8c3a7b347581f1f82898c"
+  },
+  {
+    "path": "assets/medialab-20261022/hero.js",
+    "bytes": 11417,
+    "sha256": "3cb689c19a4d893e6ccbf1c8ee2fe380c214eafb93561394cbcd490101474dc7",
+    "git_blob_sha": "b38f53c80e0373b1a46a0007b5979dbc645cd8d4"
+  },
+  {
+    "path": "assets/medialab-20261022/navigation-labels.js",
+    "bytes": 1510,
+    "sha256": "bdbf531ecafdc75152aa32001439871d61c5eb265cfe96f2dc18fe0e075c4383",
+    "git_blob_sha": "81435260872ce11b0576f4c1b3a88b80cfa8693d"
+  },
+  {
+    "path": "assets/medialab-20261022/presentation.css",
+    "bytes": 14807,
+    "sha256": "24a496c3a7acc7f177e8a323dbf7c1db9e402ddc395cd2343b9a7e100236c3be",
+    "git_blob_sha": "81aa2aa6af0d5336eb823c87d60e3e67eadef52e"
+  },
+  {
+    "path": "assets/medialab-20261022/presentation.js",
+    "bytes": 4576,
+    "sha256": "162dde93e12cb9fcafe8eaf5b3c6a1fe0f1e660e70f08164ba1d7892feaaa1b3",
+    "git_blob_sha": "256b2e6c2ff301aa27f3fc08989787cac4196770"
+  },
+  {
     "path": "assets/medialab-hero.js",
     "bytes": 10811,
     "sha256": "69ba7b427a7ec60958269f5c9e9d1a5ec127c39e20d195ce3750ebedbb0b8dab",
@@ -655,9 +685,9 @@
   },
   {
     "path": "index.html",
-    "bytes": 269386,
-    "sha256": "631b108907cc36ba2b23c6bb4386f264950d1e6491b5cd74ab35708fe0202dc2",
-    "git_blob_sha": "b14ce8fbc8406d35729634a95de89590125051eb"
+    "bytes": 270873,
+    "sha256": "d592b1732b3db83427547cbc8cf5cdf1d528e9fa495e13fac456aecc8ffb059d",
+    "git_blob_sha": "5f541a6ebed9bb36ce09097fdf5313ab452ba98c"
   },
   {
     "path": "labs/medialab/index.html",
@@ -670,5 +700,11 @@
     "bytes": 23,
     "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
     "git_blob_sha": "c2a49f4fb82f19ffa9089fcf8630e5a2870d3feb"
+  },
+  {
+    "path": "work/campi-flegrei/index.html",
+    "bytes": 68388,
+    "sha256": "5613178bde8a4b00780e4cdff1156390b87a08267763481c2d125f471f31fbf2",
+    "git_blob_sha": "d65f623e5bf7b61f712b2476138d9aef2ca78a6f"
   }
 ]
